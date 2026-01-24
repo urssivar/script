@@ -14,7 +14,7 @@ The modern Kaitag alphabet, based on the Cyrillic script, was developed in 2024 
 
 ### Version History
 
-**v1.1 (January 2026)**: Reintroduction of palochka (**Ӏӏ**) as ejective marker, replacing the soft sign approach. This change aligns with Dagestanian orthographic tradition, simplifies learning by giving **Ьь** /h/ and **Ъъ** /ʔ/ single unambiguous readings, and improves visual distinctiveness through palochka's height.
+**v1.1 (January 2026)**: Reintroduction of palochka (**Ӏӏ**) as ejective marker, replacing the soft sign approach. This change aligns with Dagestanian and North Caucasian orthographic tradition, simplifies learning by giving **Ьь** /h/ and **Ъъ** /ʔ/ single unambiguous readings, and improves visual distinctiveness through palochka's height.
 
 **v1.0 (February 2024)**: Initial release introducing extended Cyrillic characters, uniform consonant series representation, and explicit iotation. Used soft sign (**Ьь**) as dual marker for both /h/ and ejectivity.
 
@@ -199,6 +199,6 @@ Linux has built-in compose key support. For macOS, [**macos-compose**](https://g
 
 This work is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). If you use this specification or data in your work, please cite:
 
-> Magomedov, M. (2026). _Kaitag Script_. Retrieved from https://github.com/alkaitagi/urssivar/script
+> Magomedov, M. (2026). _Kaitag Cyrillic Script_. Retrieved from https://github.com/alkaitagi/urssivar/script
 
 Contact: alkaitagi@outlook.com
