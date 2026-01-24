@@ -26,13 +26,91 @@ The modern Kaitag alphabet, based on the Cyrillic script, was developed in 2024 
 
 ## Alphabet
 
-Letters (42):
+42 letters, of which 12 are digraphs:
 
-> а б в г ғ д е ж з и й к кк кӏ ҡ ҡҡ ҡӏ л м н о п пп пӏ р с т тт тӏ у х ҳ ц цц цӏ ч чч чӏ ш ъ ь я
+```
+а б в г ғ д е ж з и й к кк кӏ ҡ ҡҡ ҡӏ л м н о п пп пӏ р с т тт тӏ у х ҳ ц цц цӏ ч чч чӏ ш ъ ь я
+```
 
-Characters (31):
+**Letter frequency data:** [letter_frequencies.csv](frequency/data/letter_frequencies.csv)
 
-> а б в г ғ д е ж з и й к ҡ л м н о п р с т у х ҳ ц ч ш ъ ь я ӏ
+**Comparison with Soviet Dagestanian orthographies:**
+
+| Kaitag | IPA      | Soviet Dagestanian           |
+| ------ | -------- | ---------------------------- |
+| а      | /a/      |                              |
+| б      | /b/      |                              |
+| в      | /β/, /ʷ/ |                              |
+| г      | /g/      |                              |
+| ғ      | /ʁ/      | гъ                           |
+| д      | /d/      |                              |
+| е      | /e/      | э (word-initially)           |
+| ж      | /ʒ/      |                              |
+| з      | /z/      |                              |
+| и      | /i/      |                              |
+| й      | /j/      | е, я, ю (word-initially)     |
+| к      | /kʰ/     |                              |
+| кк     | /kː/     |                              |
+| кӏ     | /kʼ/     |                              |
+| ҡ      | /qʰ/     | хъ, къ                       |
+| ҡҡ     | /qː/     | къ, къкъ                     |
+| ҡӏ     | /qʼ/     | кь, къ                       |
+| л      | /l/      |                              |
+| м      | /m/      |                              |
+| н      | /n/      |                              |
+| о      | /ʷa/     | ва                           |
+| п      | /pʰ/     |                              |
+| пп     | /pː/     |                              |
+| пӏ     | /pʼ/     |                              |
+| р      | /ɾ/      |                              |
+| с      | /s/      |                              |
+| т      | /tʰ/     |                              |
+| тт     | /tː/     |                              |
+| тӏ     | /tʼ/     |                              |
+| у      | /u/      |                              |
+| х      | /χ/      |                              |
+| ҳ      | /x/      | хь                           |
+| ц      | /tsʰ/    |                              |
+| цц     | /tsː/    |                              |
+| цӏ     | /tsʼ/    |                              |
+| ч      | /tʃʰ/    |                              |
+| чч     | /tʃː/    |                              |
+| чӏ     | /tʃʼ/    |                              |
+| ш      | /ʃ/      |                              |
+| ъ      | /ʔ/      | гӏ                           |
+| ь      | /h/      | гь, хӏ                       |
+| я      | /æ/      | гӏя (word-initially), аь, аӏ |
+
+### Characters
+
+31 unique characters, of which 4 are from extended Cyrillic:
+
+```
+а б в г ғ д е ж з и й к ҡ л м н о п р с т у х ҳ ц ч ш ъ ь я ӏ
+```
+
+**Character frequency data:** [character_frequencies.csv](frequency/data/character_frequencies.csv)
+
+**Extended Cyrillic characters:**
+
+| Character | Unicode        | Name                              |
+| --------- | -------------- | --------------------------------- |
+| Ғ ғ       | U+0492, U+0493 | Cyrillic Letter Ghe with Stroke   |
+| Ҡ ҡ       | U+04A0, U+04A1 | Cyrillic Letter Bashkir Ka        |
+| Ҳ ҳ       | U+04B2, U+04B3 | Cyrillic Letter Ha with Descender |
+| Ӏ ӏ       | U+04C0, U+04CF | Cyrillic Letter Palochka          |
+
+> **Note on Palochka:** Often substituted with digit `1`, Latin `I`/`i`, lowercase `l`, vertical bar `|`, or slash `/` due to absence from standard Russian keyboards. This practice began with Soviet typewriters and continues today. **Corpora, dictionaries, and datasets should normalize these substitutions to the canonical Unicode characters U+04C0 (capital) and U+04CF (lowercase).**
+
+### Extended Notation
+
+Beyond the core alphabet, extended orthographic notation includes:
+
+- **Acute diacritics** for stress marking: **а́**, **е́**, **и́**, **о́**, **у́**, **я́**
+- **Tense fricatives** (phonemic status uncertain): **сс** /sː/, **шш** /ʃː/, **хх** /χː/, **ҳҳ** /xː/
+- **Marginal/dialectal sounds**: **ву** /w/, **гх** /ɣ/, **ьв** /ɸ/ (onomatopoeia); **гъ** /ʡ/, **хъ** /ħ/ (peripheral dialects)
+
+These elements are not part of the standard alphabet but are used for precise phonetic documentation, pedagogical purposes, and capturing dialectal variation.
 
 ## Input
 
@@ -50,16 +128,18 @@ The layout replaces five keys for the excluded Russian letters **Щ**, **Ф**, *
 
 The accented vowels for stress and the excluded Russian letters are available via long-press:
 
-- у: ю у́
-- е: э е́ ё
-- ш: щ
-- а: а́
-- п: ф
-- о: о́
-- я: я́
-- и: ы и́
+```
+у: ю у́
+е: э е́ ё
+ш: щ
+а: а́
+п: ф
+о: о́
+я: я́
+и: ы и́
+```
 
-Implemented in **Google Gboard** ([Google Play](https://play.google.com/store/apps/details?id=com.google.android.inputmethod.latin)), **Yandex Keyboard** ([Google Play](https://play.google.com/store/apps/details?id=ru.yandex.androidkeyboard), [AppStore](https://apps.apple.com/app/andeks-klaviatura/id1053139327)), and [**Heliboard**](https://github.com/Helium314/HeliBoard).
+Implemented in **Google Gboard** ([Google Play](https://play.google.com/store/apps/details?id=com.google.android.inputmethod.latin)), **Yandex Keyboard** ([Google Play](https://play.google.com/store/apps/details?id=ru.yandex.androidkeyboard), [AppStore](https://apps.apple.com/app/andeks-klaviatura/id1053139327)), and **HeliBoard** ([GitHub](https://github.com/Helium314/HeliBoard)).
 
 ## Desktop Input
 
