@@ -177,28 +177,19 @@ Linux has built-in compose key support. For macOS, [**macos-compose**](https://g
 
 ## Resources
 
-### Dictionaries and Corpora
+### Data
 
 - **[Kaitag Dictionary](https://urssivar.com/language/dictionary/intro)** (5,000+ lexemes, in development) with usage examples, notes, and cross-references ([source](https://github.com/urssivar/dictionary))
-- **Reference corpus**: [monocorpus.txt](frequency/monocorpus.txt) (33,000 characters) extracted from Gasanova, U. (2013). _Kaitag Tales_. Makhachkala, 152 p.
+- **Reference corpus**: [monocorpus.txt](frequency/monocorpus.txt) (33,615 characters) extracted from Gasanova, U.U. (2013). _Хайдакьла хабарти_ (Kaitag Tales). Makhachkala, 152 p.
 
-### Digital Tools
+### Tools
 
 - **[Yaziv](https://yaziv.raxys.app/xdq?from=cyr_soviet&to=cyr&text=%D1%86%D0%B0%D0%BA%D1%8A%D0%BA%D1%8A%D0%B0+%D0%BA%D1%8A%D0%B0%D0%B1%D0%B0%D0%B3%D1%8A)** text converter: Supports transliteration between Kaitag Cyrillic and IPA representations
   - Current orthography: "Cyrillic (2026)"
   - Legacy support: "Cyrillic (2024)", "Soviet Cyrillic"
+- **[Google Fonts](https://fonts.google.com/?preview.text=%D2%92%D2%93%D2%A0%D2%A1%D2%B2%D2%B3%D3%80%D3%8F&script=Cyrl)**: Web font service and library.
 
-### Fonts
-
-Standard Cyrillic fonts with extended character support work well. Recommended fonts:
-
-- **Noto Sans** / **Noto Serif** (comprehensive Unicode coverage)
-- **PT Sans** / **PT Serif** (optimized for Cyrillic)
-- **Fira Sans** / **Fira Code** (modern, clean)
-
-All required characters (Ғ, Ҡ, Ҳ, Ӏ) are widely supported in modern font families.
-
-### External References
+### References
 
 - **[ParaType](https://paratype.github.io/cyrillic-languages/index.html?lang=Kaitag&group=cyrillic&ui=en&pg=2)**: Cyrillic typography resource
 - **[Ethnologue](https://www.ethnologue.com/language/xdq/)**: Global language database
