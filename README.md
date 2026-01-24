@@ -114,13 +114,13 @@ Beyond the core alphabet, extended orthographic notation includes:
 
 These elements are not part of the standard alphabet but are used for precise phonetic documentation, pedagogical purposes, and capturing dialectal variation.
 
-## Input
+## Typing
 
-The current input methods are based on the standard Russian ЙЦУКЕН and aim to do the least amout of disruption to the muscle memory of Russian keyboard users. In the future with larger corpus a special Kaitag layout could be developed that fully takes into account the character frequences and other metrics.
+Input methods are based on the standard Russian ЙЦУКЕН layout to minimize disruption to Russian keyboard users' muscle memory. An optimized Kaitag-specific layout based on character frequency would require a larger text corpus for proper analysis.
 
-## Mobile Input
+### Mobile
 
-The layout replaces five keys for the excluded Russian letters **Щ**, **Ф**, **Ы**, **Э**, **Ю** with the characters **Ҡ**, **Ҳ**, **Ғ**, **Ъ**, **Ӏ**. The characters are placed according to their frequencies, with the more frequent ones brought closer to the center.
+The layout replaces five keys for the excluded Russian letters **Щ**, **Ф**, **Ы**, **Э**, **Ю** with **Ҡ**, **Ҳ**, **Ғ**, **Ъ**, **Ӏ** respectively. Extended characters are positioned by frequency, with more frequent ones closer to the center.
 
 ```
 й ц у к е н г ш ҡ з х
@@ -128,7 +128,7 @@ The layout replaces five keys for the excluded Russian letters **Щ**, **Ф**, *
   я ч с м и т ь б ӏ
 ```
 
-The accented vowels for stress and the excluded Russian letters are available via long-press:
+Accented vowels for stress marking and excluded Russian letters are accessible via long-press:
 
 ```
 у: ю у́
@@ -141,26 +141,26 @@ The accented vowels for stress and the excluded Russian letters are available vi
 и: ы и́
 ```
 
-Implemented in **Google Gboard** ([Google Play](https://play.google.com/store/apps/details?id=com.google.android.inputmethod.latin)), **Yandex Keyboard** ([Google Play](https://play.google.com/store/apps/details?id=ru.yandex.androidkeyboard), [AppStore](https://apps.apple.com/app/andeks-klaviatura/id1053139327)), and **HeliBoard** ([GitHub](https://github.com/Helium314/HeliBoard)).
+Available for **Google Gboard** ([Google Play](https://play.google.com/store/apps/details?id=com.google.android.inputmethod.latin)), **Yandex Keyboard** ([Google Play](https://play.google.com/store/apps/details?id=ru.yandex.androidkeyboard), [AppStore](https://apps.apple.com/app/andeks-klaviatura/id1053139327)), and **HeliBoard** ([GitHub](https://github.com/Helium314/HeliBoard)).
 
-## Desktop Input
+### Desktop
 
-With only four addintional symbols compared to the standard Russian set, the compose input seems more convenient than whole layout switching.
+The script requires only four additional symbols compared to standard Russian. Compose key sequences can be used to enter these characters without switching keyboard layouts.
 
-The config for [**WinCompose**](https://github.com/samhocevar/wincompose) on Windows:
+Example configuration for [**WinCompose**](https://github.com/samhocevar/wincompose) on Windows:
 
 ```
-<Multi_key> <Г> : "Ғ"
-<Multi_key> <г> : "ғ"
-<Multi_key> <К> : "Ҡ"
-<Multi_key> <к> : "ҡ"
-<Multi_key> <Х> : "Ҳ"
-<Multi_key> <х> : "ҳ"
-<Multi_key> <!> : "Ӏ"
-<Multi_key> <1> : "ӏ"
+<Multi_key> <Г> : "Ғ"  # CYRILLIC CAPITAL LETTER GHE WITH STROKE
+<Multi_key> <г> : "ғ"  # CYRILLIC SMALL LETTER GHE WITH STROKE
+<Multi_key> <К> : "Ҡ"  # CYRILLIC CAPITAL LETTER BASHKIR KA
+<Multi_key> <к> : "ҡ"  # CYRILLIC SMALL LETTER BASHKIR KA
+<Multi_key> <Х> : "Ҳ"  # CYRILLIC CAPITAL LETTER HA WITH DESCENDER
+<Multi_key> <х> : "ҳ"  # CYRILLIC SMALL LETTER HA WITH DESCENDER
+<Multi_key> <!> : "Ӏ"  # CYRILLIC CAPITAL LETTER PALOCHKA
+<Multi_key> <1> : "ӏ"  # CYRILLIC SMALL LETTER PALOCHKA
 ```
 
-Linux has this functionality built-in and for MacOS [**macos-compose**](https://github.com/Granitosaurus/macos-compose) is available.
+Linux has built-in compose key support. For macOS, [**macos-compose**](https://github.com/Granitosaurus/macos-compose) is available.
 
 ## License
 
