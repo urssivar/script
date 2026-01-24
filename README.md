@@ -118,6 +118,13 @@ These elements are not part of the standard alphabet but are used for precise ph
 
 Input methods are based on the standard Russian ЙЦУКЕН layout to minimize disruption to Russian keyboard users' muscle memory. An optimized Kaitag-specific layout based on character frequency would require a larger text corpus for proper analysis.
 
+**Language identifiers** for keyboard layouts:
+
+- **English**: Kaitag
+- **Russian**: кайтагский
+- **Kaitag**: Хайдаҡӏла
+- **ISO 639-3**: xdq
+
 ### Mobile
 
 The layout replaces five keys for the excluded Russian letters **Щ**, **Ф**, **Ы**, **Э**, **Ю** with **Ҡ**, **Ҳ**, **Ғ**, **Ъ**, **Ӏ** respectively. These characters are positioned by frequency, with more frequent ones closer to the center.
