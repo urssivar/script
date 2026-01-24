@@ -1,5 +1,29 @@
 # Kaitag Script
 
+Technical specification for the Kaitag Cyrillic script.
+
+## Overview
+
+The modern Kaitag alphabet, based on the Cyrillic script, was developed in 2024 and revised in 2026. It consists of 27 Russian letters (excluding Щщ, Фф, Ыы, Ээ, Ёё, Юю), 4 extended Cyrillic characters (**Ғғ**, **Ҡҡ**, **Ҳҳ**, **Ӏӏ**), and 12 digraphs (geminates and ejectives). Extended notation includes acute-marked vowels for stress and additional digraphs for non-phonemic sounds.
+
+### Version History
+
+**v1.1 (January 2026)**: Reintroduction of palochka (**Ӏӏ**) as ejective marker, replacing the soft sign approach. This change aligns with Dagestanian orthographic tradition, simplifies learning by giving **Ьь** /h/ and **Ъъ** /ʔ/ single unambiguous readings, and improves visual distinctiveness through palochka's height.
+
+**v1.0 (February 2024)**: Initial release introducing extended Cyrillic characters, uniform consonant series representation, and explicit iotation. Used soft sign (**Ьь**) as dual marker for both /h/ and ejectivity.
+
+### Script Design
+
+1. **Extended Cyrillic characters**: **Ғғ** /ʁ/, **Ҡҡ** /qʰ/, **Ҳҳ** /x/. These established Cyrillic extensions maintain single-letter representation for basic consonants.
+
+2. **Uniform consonant series**: doubling for geminates (**пп**, **тт**, **чч**, **цц**, **кк**, **ҡҡ**) and palochka (**Ӏӏ**) for all ejectives (**пӏ**, **тӏ**, **чӏ**, **цӏ**, **кӏ**, **ҡӏ**) and only for them. This consistently represents six parallel three-way contrasts (aspirated/geminate/ejective).
+
+3. **Repurposed Russian signs** for laryngeal sounds: **Ьь** /h/ and **Ъъ** /ʔ/. In Russian these letters serve as modifiers without representing sounds themselves, and repurposing them reduces the number of special characters needed.
+
+4. **Letter Оо** represents labialization /ʷa/ before **Аа**, while **Вв** marks both /β/ and rare labialization before other vowels. Since labialization overwhelmingly occurs with /a/, this allows simplified orthography: **беркона** /beɾkʰʷana/ "to eat" → **беркне** /beɾkʰne/ (masd.).
+
+5. **Explicit iotation**: **Ее** /e/ and **Яя** /æ/ are always pure vowels; **Йй** /j/ is written explicitly everywhere. This eliminates Russian's context-dependent vowel readings, creating one-to-one sound-letter correspondence.
+
 ## Alphabet
 
 Letters (42):
