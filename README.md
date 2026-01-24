@@ -162,8 +162,10 @@ The config for [**WinCompose**](https://github.com/samhocevar/wincompose) on Win
 
 Linux has this functionality built-in and for MacOS [**macos-compose**](https://github.com/Granitosaurus/macos-compose) is available.
 
-## Naming
+## License
 
-- Rus: кайтагский
-- Eng: Kaitag
-- Xdq: Хайдаҡӏла
+This work is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). If you use this specification or data in your work, please cite:
+
+> Magomedov, M. (2026). _Kaitag Cyrillic Orthography v1.1_. Retrieved from https://github.com/alkaitagi/urssivar/script
+
+Contact: alkaitagi@outlook.com
