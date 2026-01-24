@@ -4,7 +4,7 @@ Technical specification for the Kaitag Cyrillic script.
 
 ## Overview
 
-The modern Kaitag alphabet, based on the Cyrillic script, was developed in 2024 and revised in 2026. It consists of 27 Russian letters (excluding Щщ, Фф, Ыы, Ээ, Ёё, Юю), 4 extended Cyrillic characters (**Ғғ**, **Ҡҡ**, **Ҳҳ**, **Ӏӏ**), and 12 digraphs (geminates and ejectives). Extended notation includes acute-marked vowels for stress and additional digraphs for non-phonemic sounds.
+The modern Kaitag alphabet, based on the Cyrillic script, was developed in 2024 and revised in 2026. It consists of 27 Russian letters (excluding Щщ, Фф, Ыы, Ээ, Ёё, Юю), 4 extended Cyrillic characters (**Ғғ**, **Ҡҡ**, **Ҳҳ**, **Ӏӏ**), and 12 digraphs (geminates and ejectives). Extended notation includes vowels with acute accents for stress and additional digraphs for non-phonemic sounds.
 
 ### Version History
 
@@ -18,7 +18,7 @@ The modern Kaitag alphabet, based on the Cyrillic script, was developed in 2024 
 
 2. **Uniform consonant series**: doubling for geminates (**пп**, **тт**, **чч**, **цц**, **кк**, **ҡҡ**) and palochka (**Ӏӏ**) for all ejectives (**пӏ**, **тӏ**, **чӏ**, **цӏ**, **кӏ**, **ҡӏ**) and only for them. This consistently represents six parallel three-way contrasts (aspirated/geminate/ejective).
 
-3. **Repurposed Russian signs** for laryngeal sounds: **Ьь** /h/ and **Ъъ** /ʔ/. In Russian these letters serve as modifiers without representing sounds themselves, and repurposing them reduces the number of special characters needed.
+3. **Repurposed Russian signs** for laryngeal sounds: **Ьь** /h/ and **Ъъ** /ʔ/. In Russian these letters serve as modifiers without representing sounds themselves. Repurposing them reduces the number of special characters needed.
 
 4. **Letter Оо** represents labialization /ʷa/ before **Аа**, while **Вв** marks both /β/ and rare labialization before other vowels. Since labialization overwhelmingly occurs with /a/, this allows simplified orthography: **беркона** /beɾkʰʷana/ "to eat" → **беркне** /beɾkʰne/ (masd.).
 
@@ -112,7 +112,7 @@ Beyond the core alphabet, extended orthographic notation includes:
 - **Tense fricatives** (phonemic status uncertain): **сс** /sː/, **шш** /ʃː/, **хх** /χː/, **ҳҳ** /xː/
 - **Marginal/dialectal sounds**: **ву** /w/, **гх** /ɣ/, **ьв** /ɸ/ (onomatopoeia); **гъ** /ʡ/, **хъ** /ħ/ (peripheral dialects)
 
-These elements are not part of the standard alphabet but are used for precise phonetic documentation, pedagogical purposes, and capturing dialectal variation.
+These elements are not part of the standard alphabet but are used for precise phonetic documentation, pedagogical purposes, and dialectal variation.
 
 ## Typing
 
@@ -120,7 +120,7 @@ Input methods are based on the standard Russian ЙЦУКЕН layout to minimize 
 
 ### Mobile
 
-The layout replaces five keys for the excluded Russian letters **Щ**, **Ф**, **Ы**, **Э**, **Ю** with **Ҡ**, **Ҳ**, **Ғ**, **Ъ**, **Ӏ** respectively. Extended characters are positioned by frequency, with more frequent ones closer to the center.
+The layout replaces five keys for the excluded Russian letters **Щ**, **Ф**, **Ы**, **Э**, **Ю** with **Ҡ**, **Ҳ**, **Ғ**, **Ъ**, **Ӏ** respectively. These characters are positioned by frequency, with more frequent ones closer to the center.
 
 ```
 й ц у к е н г ш ҡ з х
