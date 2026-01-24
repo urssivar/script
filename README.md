@@ -32,6 +32,8 @@ The modern Kaitag alphabet, based on the Cyrillic script, was developed in 2024 
 а б в г ғ д е ж з и й к кк кӏ ҡ ҡҡ ҡӏ л м н о п пп пӏ р с т тт тӏ у х ҳ ц цц цӏ ч чч чӏ ш ъ ь я
 ```
 
+**Collation order:** The alphabet sequence above defines the sorting order. Digraphs are treated as single letters sorting after their base consonant; extended characters follow their base letters (ғ after г, ҡ after к, ҳ after х).
+
 **Letter frequency data:** [letter_frequencies.csv](frequency/data/letter_frequencies.csv)
 
 **Comparison with Soviet Dagestanian orthographies:**
