@@ -38,50 +38,50 @@ The modern Kaitag alphabet, based on the Cyrillic script, was developed in 2024 
 
 **Comparison with Soviet Dagestanian orthographies:**
 
-| Kaitag | IPA      | Soviet Dagestanian           |
-| ------ | -------- | ---------------------------- |
-| а      | /a/      |                              |
-| б      | /b/      |                              |
-| в      | /β/, /ʷ/ |                              |
-| г      | /g/      |                              |
-| ғ      | /ʁ/      | гъ                           |
-| д      | /d/      |                              |
-| е      | /e/      | э (word-initially)           |
-| ж      | /ʒ/      |                              |
-| з      | /z/      |                              |
-| и      | /i/      |                              |
-| й      | /j/      | е, я, ю (word-initially)     |
-| к      | /kʰ/     |                              |
-| кк     | /kː/     |                              |
-| кӏ     | /kʼ/     |                              |
-| ҡ      | /qʰ/     | хъ, къ                       |
-| ҡҡ     | /qː/     | къ, къкъ                     |
-| ҡӏ     | /qʼ/     | кь, къ                       |
-| л      | /l/      |                              |
-| м      | /m/      |                              |
-| н      | /n/      |                              |
-| о      | /ʷa/     | ва                           |
-| п      | /pʰ/     |                              |
-| пп     | /pː/     |                              |
-| пӏ     | /pʼ/     |                              |
-| р      | /ɾ/      |                              |
-| с      | /s/      |                              |
-| т      | /tʰ/     |                              |
-| тт     | /tː/     |                              |
-| тӏ     | /tʼ/     |                              |
-| у      | /u/      |                              |
-| х      | /χ/      |                              |
-| ҳ      | /x/      | хь                           |
-| ц      | /tsʰ/    |                              |
-| цц     | /tsː/    |                              |
-| цӏ     | /tsʼ/    |                              |
-| ч      | /tʃʰ/    |                              |
-| чч     | /tʃː/    |                              |
-| чӏ     | /tʃʼ/    |                              |
-| ш      | /ʃ/      |                              |
-| ъ      | /ʔ/      | гӏ                           |
-| ь      | /h/      | гь, хӏ                       |
-| я      | /æ/      | гӏя (word-initially), аь, аӏ |
+| Kaitag | IPA      | Soviet Dagestanian                     |
+| ------ | -------- | -------------------------------------- |
+| а      | /a/      |                                        |
+| б      | /b/      |                                        |
+| в      | /β/, /ʷ/ |                                        |
+| г      | /g/      |                                        |
+| ғ      | /ʁ/      | гъ                                     |
+| д      | /d/      |                                        |
+| е      | /e/      | э (after vowels, word-initially)       |
+| ж      | /ʒ/      |                                        |
+| з      | /z/      |                                        |
+| и      | /i/      |                                        |
+| й      | /j/      | е, я, ю (after vowels, word-initially) |
+| к      | /kʰ/     |                                        |
+| кк     | /kː/     |                                        |
+| кӏ     | /kʼ/     |                                        |
+| ҡ      | /qʰ/     | хъ, къ                                 |
+| ҡҡ     | /qː/     | къ, къкъ (intervocally)                |
+| ҡӏ     | /qʼ/     | кь, къ                                 |
+| л      | /l/      |                                        |
+| м      | /m/      |                                        |
+| н      | /n/      |                                        |
+| о      | /ʷa/     | ва                                     |
+| п      | /pʰ/     |                                        |
+| пп     | /pː/     |                                        |
+| пӏ     | /pʼ/     |                                        |
+| р      | /ɾ/      |                                        |
+| с      | /s/      |                                        |
+| т      | /tʰ/     |                                        |
+| тт     | /tː/     |                                        |
+| тӏ     | /tʼ/     |                                        |
+| у      | /u/      |                                        |
+| х      | /χ/      |                                        |
+| ҳ      | /x/      | хь                                     |
+| ц      | /tsʰ/    |                                        |
+| цц     | /tsː/    |                                        |
+| цӏ     | /tsʼ/    |                                        |
+| ч      | /tʃʰ/    |                                        |
+| чч     | /tʃː/    |                                        |
+| чӏ     | /tʃʼ/    |                                        |
+| ш      | /ʃ/      |                                        |
+| ъ      | /ʔ/      | гӏ                                     |
+| ь      | /h/      | гь, хӏ                                 |
+| я      | /æ/      | гӏя (word-initially), аь, аӏ           |
 
 ### Characters
 
@@ -148,7 +148,7 @@ Accented vowels for stress marking and excluded Russian letters are accessible v
 и: ы и́
 ```
 
-Available for **Google Gboard** ([Google Play](https://play.google.com/store/apps/details?id=com.google.android.inputmethod.latin)), **Yandex Keyboard** ([Google Play](https://play.google.com/store/apps/details?id=ru.yandex.androidkeyboard), [AppStore](https://apps.apple.com/app/andeks-klaviatura/id1053139327)), and **HeliBoard** ([GitHub](https://github.com/Helium314/HeliBoard)).
+Available for **Google Gboard** ([Google Play](https://play.google.com/store/apps/details?id=com.google.android.inputmethod.latin)), **Yandex Keyboard** ([Google Play](https://play.google.com/store/apps/details?id=ru.yandex.androidkeyboard), [App Store](https://apps.apple.com/app/andeks-klaviatura/id1053139327)), and **HeliBoard** ([GitHub](https://github.com/Helium314/HeliBoard/releases/latest)).
 
 ### Desktop
 
@@ -173,6 +173,6 @@ Linux has built-in compose key support. For macOS, [**macos-compose**](https://g
 
 This work is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). If you use this specification or data in your work, please cite:
 
-> Magomedov, M. (2026). _Kaitag Cyrillic Orthography v1.1_. Retrieved from https://github.com/alkaitagi/urssivar/script
+> Magomedov, M. (2026). _Kaitag Cyrillic Orthography_. Retrieved from https://github.com/alkaitagi/urssivar/script
 
 Contact: alkaitagi@outlook.com
