@@ -187,7 +187,7 @@ Linux has built-in compose key support. For macOS, [**macos-compose**](https://g
 - **[Yaziv](https://yaziv.raxys.app/xdq?from=cyr_soviet&to=cyr&text=%D1%86%D0%B0%D0%BA%D1%8A%D0%BA%D1%8A%D0%B0+%D0%BA%D1%8A%D0%B0%D0%B1%D0%B0%D0%B3%D1%8A)** text converter: Supports transliteration between Kaitag Cyrillic and IPA representations
   - Current orthography: "Cyrillic (2026)"
   - Legacy support: "Cyrillic (2024)", "Soviet Cyrillic"
-- **[Google Fonts](https://fonts.google.com/?preview.text=%D2%92%D2%93%D2%A0%D2%A1%D2%B2%D2%B3%D3%80%D3%8F&script=Cyrl)**: Web font service and library.
+- **[Google Fonts](https://fonts.google.com/?preview.text=%D2%92%D2%93%D2%A0%D2%A1%D2%B2%D2%B3%D3%80%D3%8F&script=Cyrl)**: Web font service and library
 
 ### References
 
