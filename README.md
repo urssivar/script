@@ -2,6 +2,12 @@
 
 Technical specification for the Kaitag Cyrillic script.
 
+**Example:**
+
+| Kaitag                                                                                                                                               | IPA                                                                                                                                                                                           | English                                                                                                                                                                    |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Ьар мейдам азатдеҳ челле чиьачӏурил це: цада йярдицци, цада ихтийарцци. Ьелттай яҡӏлу ра йяь ра деччил дилле, цалццил ца уццбе гон бугара биккан це. | haɾ ˈmejdam azatʰˈdex ˈtʃʰelle tʃʰihatʃʼuˈɾil tsʰe: tsʰaˈda jæɾˈditsːi, tsʰaˈda iχtʰiˈjaɾtsːi. helˈtːaj ˈæqʼlu ɾa jæh ɾa ˈdetʃːil ˈdille, ˈtsʰaltsːil tsʰa utsːˈbe gʷan buˈgaɾa biˈkːan tsʰe. | All human beings are born free and equal in dignity and rights. They are endowed with reason and conscience and should act towards one another in a spirit of brotherhood. |
+
 ## Overview
 
 The modern Kaitag alphabet, based on the Cyrillic script, was developed in 2024 and revised in 2026. It consists of 27 Russian letters (excluding Щщ, Фф, Ыы, Ээ, Ёё, Юю), 4 extended Cyrillic characters (**Ғғ**, **Ҡҡ**, **Ҳҳ**, **Ӏӏ**), and 12 digraphs (geminates and ejectives). Extended notation includes vowels with acute accents for stress and additional digraphs for non-phonemic sounds.
@@ -32,7 +38,7 @@ The modern Kaitag alphabet, based on the Cyrillic script, was developed in 2024 
 а б в г ғ д е ж з и й к кк кӏ ҡ ҡҡ ҡӏ л м н о п пп пӏ р с т тт тӏ у х ҳ ц цц цӏ ч чч чӏ ш ъ ь я
 ```
 
-**Collation order:** The alphabet sequence above defines the sorting order. Digraphs are treated as single letters sorting after their base consonant; extended characters follow their base letters (ғ after г, ҡ after к, ҳ after х).
+**Collation order:** The alphabet sequence above defines the sorting order. Digraphs are treated as single letters sorting after their base consonant; extended characters follow their base letters (`ғ` after `г`, `ҡ` after `к`, `ҳ` after `х`).
 
 **Letter frequency data:** [letter_frequencies.csv](frequency/data/letter_frequencies.csv)
 
@@ -168,6 +174,35 @@ Example configuration for [**WinCompose**](https://github.com/samhocevar/wincomp
 ```
 
 Linux has built-in compose key support. For macOS, [**macos-compose**](https://github.com/Granitosaurus/macos-compose) is available.
+
+## Resources
+
+### Dictionaries and Corpora
+
+- **[Kaitag Dictionary](https://urssivar.com/language/dictionary/intro)** (5,000+ lexemes, in development) with usage examples, notes, and cross-references ([source](https://github.com/urssivar/dictionary))
+- **Reference corpus**: [monocorpus.txt](frequency/monocorpus.txt) (33,000 characters) extracted from Gasanova, U. (2013). _Kaitag Tales_. Makhachkala, 152 p.
+
+### Digital Tools
+
+- **[Yaziv](https://yaziv.raxys.app/xdq?from=cyr_soviet&to=cyr&text=%D1%86%D0%B0%D0%BA%D1%8A%D0%BA%D1%8A%D0%B0+%D0%BA%D1%8A%D0%B0%D0%B1%D0%B0%D0%B3%D1%8A)** text converter: Supports transliteration between Kaitag Cyrillic and IPA representations
+  - Current orthography: "Cyrillic (2026)"
+  - Legacy support: "Cyrillic (2024)", "Soviet Cyrillic"
+
+### Fonts
+
+Standard Cyrillic fonts with extended character support work well. Recommended fonts:
+
+- **Noto Sans** / **Noto Serif** (comprehensive Unicode coverage)
+- **PT Sans** / **PT Serif** (optimized for Cyrillic)
+- **Fira Sans** / **Fira Code** (modern, clean)
+
+All required characters (Ғ, Ҡ, Ҳ, Ӏ) are widely supported in modern font families.
+
+### External References
+
+- **[ParaType](https://paratype.github.io/cyrillic-languages/index.html?lang=Kaitag&group=cyrillic&ui=en&pg=2)**: Cyrillic typography resource
+- **[Ethnologue](https://www.ethnologue.com/language/xdq/)**: Global language database
+- **[Omniglot](https://www.omniglot.com/writing/kaitag.htm)**: Encyclopedia of writing systems and languages
 
 ## License
 
