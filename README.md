@@ -14,7 +14,7 @@ The modern Kaitag alphabet, based on the Cyrillic script, was developed in 2024 
 
 ### Version History
 
-**v1.1 (January 2026)**: Reintroduction of palochka (**Ӏӏ**) as ejective marker, replacing the soft sign approach. This change aligns with Dagestanian and North Caucasian orthographic tradition, simplifies learning by giving **Ьь** /h/ and **Ъъ** /ʔ/ single unambiguous readings, and improves visual distinctiveness through palochka's height.
+**v1.1 (January 2026)**: Reintroduction of palochka (**Ӏӏ**) as ejective marker, aligning with Dagestanian orthographic tradition. Introduced extended notation for stress marking and tense fricatives.
 
 **v1.0 (February 2024)**: Initial release introducing extended Cyrillic characters, uniform consonant series representation, and explicit iotation. Used soft sign (**Ьь**) as dual marker for both /h/ and ejectivity.
 
@@ -115,8 +115,9 @@ The modern Kaitag alphabet, based on the Cyrillic script, was developed in 2024 
 Beyond the core alphabet, extended orthographic notation includes:
 
 - **Acute diacritics** for stress marking: **а́**, **е́**, **и́**, **о́**, **у́**, **я́**
-- **Tense fricatives** (phonemic status uncertain): **сс** /sː/, **шш** /ʃː/, **хх** /χː/, **ҳҳ** /xː/
-- **Marginal/dialectal sounds**: **ву** /w/, **гх** /ɣ/, **ьв** /ɸ/ (onomatopoeia); **гъ** /ʡ/, **хъ** /ħ/ (peripheral dialects)
+- **Tense fricatives** (phonemic status uncertain): **сс** /sː/, **хх** /χː/, **ҳҳ** /xː/, **шш** /ʃː/
+- **Marginal sounds** (onomatopoeia): **ву** /w/, **гҳ** /ɣ/, **пв** /ɸ/
+- **Dialectal sounds**: **гӏ** /ʡ/, **хӏ** /ħ/
 
 These elements are not part of the standard alphabet but are used for precise phonetic documentation, pedagogical purposes, and dialectal variation.
 
