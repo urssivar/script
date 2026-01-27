@@ -14,7 +14,7 @@ The modern Kaitag alphabet, based on the Cyrillic script, was developed in 2024 
 
 ### Version History
 
-**v1.1 (January 2026)**: Reintroduction of palochka (**Ӏӏ**) as ejective marker, aligning with Dagestanian orthographic tradition. Introduced extended notation for stress marking and tense fricatives.
+**v1.1 (January 2026)**: Reintroduced palochka (**Ӏӏ**) as ejective marker, aligning with Dagestanian orthographic tradition. Added extended notation for stress marking and tense fricatives.
 
 **v1.0 (February 2024)**: Initial release introducing extended Cyrillic characters, uniform consonant series representation, and explicit iotation. Used soft sign (**Ьь**) as dual marker for both /h/ and ejectivity.
 
