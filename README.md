@@ -42,7 +42,7 @@ The modern Kaitag alphabet, based on the Cyrillic script, was developed in 2024 
 
 **Letter frequency data:** [letter_frequencies.csv](frequency/data/letter_frequencies.csv)
 
-**Comparison with Soviet Dagestanian orthographies.** Asterisk (\*) marks notations from the dissertations of Temirbulatova [2004] and Gasanova [2012]:
+**Comparison with Soviet Dagestanian orthographies.** Asterisk (\*) marks the conventions from the dissertations on Kaitag by Temirbulatova [2004] and Gasanova [2012]:
 
 | Kaitag | IPA      | Soviet Dagestanian                                                                                       |
 | ------ | -------- | -------------------------------------------------------------------------------------------------------- |
