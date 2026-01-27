@@ -42,52 +42,52 @@ The modern Kaitag alphabet, based on the Cyrillic script, was developed in 2024 
 
 **Letter frequency data:** [letter_frequencies.csv](frequency/data/letter_frequencies.csv)
 
-**Comparison with Soviet Dagestanian orthographies:**
+**Comparison with Soviet Dagestanian orthographies.** Asterisk (\*) marks notations from the dissertations of Temirbulatova [2004] and Gasanova [2012]:
 
-| Kaitag | IPA      | Soviet Dagestanian                     |
-| ------ | -------- | -------------------------------------- |
-| а      | /a/      |                                        |
-| б      | /b/      |                                        |
-| в      | /β/, /ʷ/ |                                        |
-| г      | /g/      |                                        |
-| ғ      | /ʁ/      | гъ                                     |
-| д      | /d/      |                                        |
-| е      | /e/      | э (after vowels, word-initially)       |
-| ж      | /ʒ/      |                                        |
-| з      | /z/      |                                        |
-| и      | /i/      |                                        |
-| й      | /j/      | е, я, ю (after vowels, word-initially) |
-| к      | /kʰ/     |                                        |
-| кк     | /kː/     |                                        |
-| кӏ     | /kʼ/     |                                        |
-| ҡ      | /qʰ/     | хъ, къ                                 |
-| ҡҡ     | /qː/     | къ, къкъ (intervocally)                |
-| ҡӏ     | /qʼ/     | кь, къ                                 |
-| л      | /l/      |                                        |
-| м      | /m/      |                                        |
-| н      | /n/      |                                        |
-| о      | /ʷa/     | ва                                     |
-| п      | /pʰ/     |                                        |
-| пп     | /pː/     |                                        |
-| пӏ     | /pʼ/     |                                        |
-| р      | /ɾ/      |                                        |
-| с      | /s/      |                                        |
-| т      | /tʰ/     |                                        |
-| тт     | /tː/     |                                        |
-| тӏ     | /tʼ/     |                                        |
-| у      | /u/      |                                        |
-| х      | /χ/      |                                        |
-| ҳ      | /x/      | хь                                     |
-| ц      | /tsʰ/    |                                        |
-| цц     | /tsː/    |                                        |
-| цӏ     | /tsʼ/    |                                        |
-| ч      | /tʃʰ/    |                                        |
-| чч     | /tʃː/    |                                        |
-| чӏ     | /tʃʼ/    |                                        |
-| ш      | /ʃ/      |                                        |
-| ъ      | /ʔ/      | гӏ                                     |
-| ь      | /h/      | гь, хӏ                                 |
-| я      | /æ/      | гӏя (word-initially), аь, аӏ           |
+| Kaitag | IPA      | Soviet Dagestanian                                                             |
+| ------ | -------- | ------------------------------------------------------------------------------ |
+| **а**  | /a/      | **я** (iotated)                                                                |
+| **б**  | /b/      |                                                                                |
+| **в**  | /β/, /ʷ/ |                                                                                |
+| **г**  | /g/      |                                                                                |
+| **ғ**  | /ʁ/      | **гъ**                                                                         |
+| **д**  | /d/      |                                                                                |
+| **е**  | /e/      | **э** (after vowels or word-initially)                                         |
+| **ж**  | /ʒ/      |                                                                                |
+| **з**  | /z/      |                                                                                |
+| **и**  | /i/      |                                                                                |
+| **й**  | /j/      | **е**, **я**, **ю** (after vowels or word-initially, as iotated vowel letters) |
+| **к**  | /kʰ/     |                                                                                |
+| **кк** | /kː/     |                                                                                |
+| **кӏ** | /kʼ/     |                                                                                |
+| **ҡ**  | /qʰ/     | **хъ**, **къ**                                                                 |
+| **ҡҡ** | /qː/     | **къкъ**\* (intervocally), **къ**                                              |
+| **ҡӏ** | /qʼ/     | **кь**, **къ**                                                                 |
+| **л**  | /l/      |                                                                                |
+| **м**  | /m/      |                                                                                |
+| **н**  | /n/      |                                                                                |
+| **о**  | /ʷa/     | **ва**                                                                         |
+| **п**  | /pʰ/     |                                                                                |
+| **пп** | /pː/     |                                                                                |
+| **пӏ** | /pʼ/     |                                                                                |
+| **р**  | /ɾ/      |                                                                                |
+| **с**  | /s/      |                                                                                |
+| **т**  | /tʰ/     |                                                                                |
+| **тт** | /tː/     |                                                                                |
+| **тӏ** | /tʼ/     |                                                                                |
+| **у**  | /u/      | **ю** (iotated)                                                                |
+| **х**  | /χ/      |                                                                                |
+| **ҳ**  | /x/      | **хь**                                                                         |
+| **ц**  | /tsʰ/    |                                                                                |
+| **цц** | /tsː/    |                                                                                |
+| **цӏ** | /tsʼ/    |                                                                                |
+| **ч**  | /tʃʰ/    |                                                                                |
+| **чч** | /tʃː/    |                                                                                |
+| **чӏ** | /tʃʼ/    |                                                                                |
+| **ш**  | /ʃ/      |                                                                                |
+| **ъ**  | /ʔ/      | **гӏ**\* (adjacent to **я**)                                                   |
+| **ь**  | /h/      | **хӏ**\* (adjacent to **я**), **гь**                                           |
+| **я**  | /æ/      | **гӏя**\* (word-initially), **я**\* (word-initially, iotated), **аь**, **аӏ**  |
 
 ### Characters
 
