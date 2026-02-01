@@ -117,7 +117,7 @@ Beyond the core alphabet, extended orthographic notation includes:
 - **Acute diacritics** for stress marking: **а́**, **е́**, **и́**, **о́**, **у́**, **я́**
 - **Tense fricatives** (phonemic status uncertain): **сс** /sː/, **хх** /χː/, **ҳҳ** /xː/, **шш** /ʃː/
 - **Marginal sounds** (onomatopoeia): **ву** /w/, **гҳ** /ɣ/, **пв** /ɸ/
-- **Dialectal sounds**: **гӏ** /ʡ/, **хӏ** /ħ/
+- **Dialectal sounds**: **гӏ** /ʡ/, **хӏ** /ħ/, **ю** /uˤ/
 
 These elements are not part of the standard alphabet but are used for precise phonetic documentation, pedagogical purposes, and dialectal variation.
 
