@@ -10,7 +10,7 @@ Technical specification for the Kaitag Cyrillic script.
 
 ## Overview
 
-The modern Kaitag alphabet, based on the Cyrillic script, was developed in 2024 and revised in 2026. It consists of 27 Russian letters (excluding Щщ, Фф, Ыы, Ээ, Ёё, Юю), 4 extended Cyrillic characters (**Ғғ**, **Ҡҡ**, **Ҳҳ**, **Ӏӏ**), and 12 digraphs (geminates and ejectives). Extended notation includes vowels with acute accents for stress and additional digraphs for non-phonemic sounds.
+The modern Kaitag alphabet, based on the Cyrillic script, was developed in 2024 and refined in 2026. It consists of 27 Russian letters (excluding Щщ, Фф, Ыы, Ээ, Ёё, Юю), 3 extended Cyrillic characters (**Ғғ**, **Ҡҡ**, **Ҳҳ**), and 12 digraphs (doubled geminates and ejectives with **Ӏӏ**). Extended notation includes vowels with acute accents for stress and additional digraphs for non-phonemic sounds.
 
 ### Version History
 
