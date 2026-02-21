@@ -200,6 +200,6 @@ Linux has built-in compose key support. For macOS, [**macos-compose**](https://g
 
 This work is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). If you use this specification or data in your work, please cite:
 
-> Magomedov, M. (2026). _Kaitag Cyrillic Script_. Retrieved from https://github.com/alkaitagi/urssivar/script
+> Magomedov, M. (2026). _Kaitag Cyrillic Script_. Retrieved from https://github.com/urssivar/script
 
 Contact: alkaitagi@outlook.com
