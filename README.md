@@ -180,7 +180,7 @@ Linux has built-in compose key support. For macOS, [**macos-compose**](https://g
 
 ### Data
 
-- **[Kaitag Dictionary](https://urssivar.com/language/dictionary/intro)** (5,000+ lexemes, in development) with usage examples, notes, and cross-references ([source](https://github.com/urssivar/dictionary))
+- **[Kaitag Dictionary](https://urssivar.com/language/dictionary/)** (5,000+ lexemes, in development) with usage examples, notes, and cross-references ([source](https://github.com/urssivar/dictionary))
 - **Reference corpus**: [monocorpus.txt](frequency/monocorpus.txt) (33,615 characters) extracted from Gasanova, U.U. (2013). _Хайдакьла хабарти_ (Kaitag Tales). Makhachkala, 152 p.
 - **Unicode exemplar data** (base, auxiliary, marks): [googlefonts/lang: xdq_Cyrl.textproto](https://github.com/googlefonts/lang/blob/main/Lib/gflanguages/data/languages/xdq_Cyrl.textproto)
 
