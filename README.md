@@ -4,9 +4,9 @@ Technical specification for the Kaitag Cyrillic script.
 
 **Example:**
 
-| Kaitag                                                                                                                                               | IPA                                                                                                                                                                                           | English                                                                                                                                                                    |
-| :--------------------------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Ьар мейдам азатдеҳ челле чиьачӏурил це: цада йярдицци, цада ихтийарцци. Ьелттай яҡӏлу ра йяь ра деччил дилле, цалццил ца уццбе гон бугара биккан це. | haɾ ˈmejdam azatʰˈdex ˈtʃʰelle tʃʰihatʃʼuˈɾil tsʰe: tsʰaˈda jæɾˈditsːi, tsʰaˈda iχtʰiˈjaɾtsːi. helˈtːaj ˈæqʼlu ɾa jæh ɾa ˈdetʃːil ˈdille, ˈtsʰaltsːil tsʰa utsːˈbe gʷan buˈgaɾa biˈkːan tsʰe. | All human beings are born free and equal in dignity and rights. They are endowed with reason and conscience and should act towards one another in a spirit of brotherhood. |
+| Kaitag                                                                                                                                               | IPA                                                                                                                                                                                 | English                                                                                                                                                                    |
+| :--------------------------------------------------------------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Ьар мейдам азатдеҳ челле чиьачӏурил це: цада йярдицци, цада ихтийарцци. Ьелттай яҡӏлу ра йяь ра деччил дилле, цалццил ца уццбе гон бугара биккан це. | haɾ ˈmejdam azatˈdex ˈtʃelle tʃihatʃʼuˈɾil tse: tsaˈda jæɾˈditsːi, tsaˈda iχtiˈjaɾtsːi. helˈtːaj ˈæqʼlu ɾa jæh ɾa ˈdetʃːil ˈdille, ˈtsaltsːil tsa utsːˈbe gʷan buˈgaɾa biˈkːan tse. | All human beings are born free and equal in dignity and rights. They are endowed with reason and conscience and should act towards one another in a spirit of brotherhood. |
 
 ## Overview
 
@@ -20,13 +20,13 @@ The modern Kaitag alphabet, based on the Cyrillic script, was developed in 2024 
 
 ### Script Design
 
-1. **Extended Cyrillic characters**: **Ғғ** /ʁ/, **Ҡҡ** /qʰ/, **Ҳҳ** /x/. These established Cyrillic extensions maintain single-letter representation for basic consonants.
+1. **Extended Cyrillic characters**: **Ғғ** /ʁ/, **Ҡҡ** /q/, **Ҳҳ** /x/. These established Cyrillic extensions maintain single-letter representation for basic consonants.
 
-2. **Uniform consonant series**: doubling for geminates (**пп**, **тт**, **чч**, **цц**, **кк**, **ҡҡ**) and palochka (**Ӏӏ**) for all ejectives (**пӏ**, **тӏ**, **чӏ**, **цӏ**, **кӏ**, **ҡӏ**) and only for them. This consistently represents six parallel three-way contrasts (aspirated/geminate/ejective).
+2. **Uniform consonant series**: doubling for geminates (**пп**, **тт**, **чч**, **цц**, **кк**, **ҡҡ**) and palochka (**Ӏӏ**) for all ejectives (**пӏ**, **тӏ**, **чӏ**, **цӏ**, **кӏ**, **ҡӏ**) and only for them. This consistently represents six parallel three-way contrasts (plain/geminate/ejective).
 
 3. **Repurposed Russian signs** for laryngeal sounds: **Ьь** /h/ and **Ъъ** /ʔ/. In Russian these letters serve as modifiers without representing sounds themselves. Repurposing them reduces the number of special characters needed.
 
-4. **Letter Оо** represents labialization /ʷa/ before **Аа**, while **Вв** marks both /β/ and rare labialization before other vowels. Since labialization overwhelmingly occurs with /a/, this allows simplified orthography: **беркона** /beɾkʰʷana/ "to eat" → **беркне** /beɾkʰne/ (masd.).
+4. **Letter Оо** represents labialization /ʷa/ before **Аа**, while **Вв** marks both /β/ and rare labialization before other vowels. Since labialization overwhelmingly occurs with /a/, this allows simplified orthography: **беркона** /beɾkʷana/ "to eat" → **беркне** /beɾkne/ (masd.).
 
 5. **Explicit iotation**: **Ее** /e/ and **Яя** /æ/ are always pure vowels; **Йй** /j/ is written explicitly everywhere. This eliminates Russian's context-dependent vowel readings, creating one-to-one sound-letter correspondence.
 
@@ -57,31 +57,31 @@ The modern Kaitag alphabet, based on the Cyrillic script, was developed in 2024 
 | **з**  | /z/      |                                                                                                          |
 | **и**  | /i/      |                                                                                                          |
 | **й**  | /j/      | **е**, **я**, **ю** (after vowels or word-initially, each includes the corresponding vowel following it) |
-| **к**  | /kʰ/     |                                                                                                          |
+| **к**  | /k/      |                                                                                                          |
 | **кк** | /kː/     |                                                                                                          |
 | **кӏ** | /kʼ/     |                                                                                                          |
-| **ҡ**  | /qʰ/     | **хъ**, **къ**                                                                                           |
+| **ҡ**  | /q/      | **хъ**, **къ**                                                                                           |
 | **ҡҡ** | /qː/     | **къкъ**\* (intervocally), **къ**                                                                        |
 | **ҡӏ** | /qʼ/     | **кь**, **къ**                                                                                           |
 | **л**  | /l/      |                                                                                                          |
 | **м**  | /m/      |                                                                                                          |
 | **н**  | /n/      |                                                                                                          |
 | **о**  | /ʷa/     | **ва**                                                                                                   |
-| **п**  | /pʰ/     |                                                                                                          |
+| **п**  | /p/      |                                                                                                          |
 | **пп** | /pː/     |                                                                                                          |
 | **пӏ** | /pʼ/     |                                                                                                          |
 | **р**  | /ɾ/      |                                                                                                          |
 | **с**  | /s/      |                                                                                                          |
-| **т**  | /tʰ/     |                                                                                                          |
+| **т**  | /t/      |                                                                                                          |
 | **тт** | /tː/     |                                                                                                          |
 | **тӏ** | /tʼ/     |                                                                                                          |
 | **у**  | /u/      | **ю** (includes preceding **й**)                                                                         |
 | **х**  | /χ/      |                                                                                                          |
 | **ҳ**  | /x/      | **хь**                                                                                                   |
-| **ц**  | /tsʰ/    |                                                                                                          |
+| **ц**  | /ts/     |                                                                                                          |
 | **цц** | /tsː/    |                                                                                                          |
 | **цӏ** | /tsʼ/    |                                                                                                          |
-| **ч**  | /tʃʰ/    |                                                                                                          |
+| **ч**  | /tʃ/     |                                                                                                          |
 | **чч** | /tʃː/    |                                                                                                          |
 | **чӏ** | /tʃʼ/    |                                                                                                          |
 | **ш**  | /ʃ/      |                                                                                                          |
