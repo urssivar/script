@@ -4,8 +4,8 @@ Technical specification for the Kaitag Cyrillic script.
 
 **Example:**
 
-| Kaitag                                                                                                                                               | IPA                                                                                                                                                                                 | English                                                                                                                                                                    |
-| :--------------------------------------------------------------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Kaitag                                                                                                                                               | IPA                                                                                                                                                                                           | English                                                                                                                                                                    |
+| :--------------------------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Ьар мейдам азатдеҳ челле чиьачӏурил це: цада йярдицци, цада ихтийарцци. Ьелттай яҡӏлу ра йяь ра деччил дилле, цалццил ца уццбе гон бугара биккан це. | haɾ ˈmejdam azatˈdex ˈtʃelle tʃihatʃʼuˈɾil tse: tsaˈda jæɾˈditsːi, tsaˈda iχtiˈjaɾtsːi. helˈtːaj ˈæqʼlu ɾa jæh ɾa ˈdetʃːil ˈdille, ˈtsaltsːil tsa utsːˈbe gʷan buˈgaɾa biˈkːan tse. | All human beings are born free and equal in dignity and rights. They are endowed with reason and conscience and should act towards one another in a spirit of brotherhood. |
 
 ## Overview
@@ -57,31 +57,31 @@ The modern Kaitag alphabet, based on the Cyrillic script, was developed in 2024 
 | **з**  | /z/      |                                                                                                          |
 | **и**  | /i/      |                                                                                                          |
 | **й**  | /j/      | **е**, **я**, **ю** (after vowels or word-initially, each includes the corresponding vowel following it) |
-| **к**  | /k/      |                                                                                                          |
+| **к**  | /k/     |                                                                                                          |
 | **кк** | /kː/     |                                                                                                          |
 | **кӏ** | /kʼ/     |                                                                                                          |
-| **ҡ**  | /q/      | **хъ**, **къ**                                                                                           |
+| **ҡ**  | /q/     | **хъ**, **къ**                                                                                           |
 | **ҡҡ** | /qː/     | **къкъ**\* (intervocally), **къ**                                                                        |
 | **ҡӏ** | /qʼ/     | **кь**, **къ**                                                                                           |
 | **л**  | /l/      |                                                                                                          |
 | **м**  | /m/      |                                                                                                          |
 | **н**  | /n/      |                                                                                                          |
 | **о**  | /ʷa/     | **ва**                                                                                                   |
-| **п**  | /p/      |                                                                                                          |
+| **п**  | /p/     |                                                                                                          |
 | **пп** | /pː/     |                                                                                                          |
 | **пӏ** | /pʼ/     |                                                                                                          |
 | **р**  | /ɾ/      |                                                                                                          |
 | **с**  | /s/      |                                                                                                          |
-| **т**  | /t/      |                                                                                                          |
+| **т**  | /t/     |                                                                                                          |
 | **тт** | /tː/     |                                                                                                          |
 | **тӏ** | /tʼ/     |                                                                                                          |
 | **у**  | /u/      | **ю** (includes preceding **й**)                                                                         |
 | **х**  | /χ/      |                                                                                                          |
 | **ҳ**  | /x/      | **хь**                                                                                                   |
-| **ц**  | /ts/     |                                                                                                          |
+| **ц**  | /ts/    |                                                                                                          |
 | **цц** | /tsː/    |                                                                                                          |
 | **цӏ** | /tsʼ/    |                                                                                                          |
-| **ч**  | /tʃ/     |                                                                                                          |
+| **ч**  | /tʃ/    |                                                                                                          |
 | **чч** | /tʃː/    |                                                                                                          |
 | **чӏ** | /tʃʼ/    |                                                                                                          |
 | **ш**  | /ʃ/      |                                                                                                          |
@@ -196,6 +196,7 @@ Linux has built-in compose key support. For macOS, [**macos-compose**](https://g
 - **[ParaType](https://paratype.github.io/cyrillic-languages/index.html?lang=Kaitag&group=cyrillic&ui=en&pg=2)**: Cyrillic typography resource
 - **[Ethnologue](https://www.ethnologue.com/language/xdq/)**: Global language database
 - **[Omniglot](https://www.omniglot.com/writing/kaitag.htm)**: Encyclopedia of writing systems and languages
+- **[Minority Languages of Russia](https://minlang.iling-ran.ru/lang/kaytagskiy-yazyk)**: Institute of Linguistics, Russian Academy of Sciences
 
 ## License
 
