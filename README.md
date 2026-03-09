@@ -4,19 +4,13 @@ Technical specification for the Kaitag Cyrillic script.
 
 **Example:**
 
-| Kaitag                                                                                                                                               | IPA                                                                                                                                                                                           | English                                                                                                                                                                    |
-| :--------------------------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Kaitag                                                                                                                                               | IPA                                                                                                                                                                                 | English                                                                                                                                                                    |
+| :--------------------------------------------------------------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Ьар мейдам азатдеҳ челле чиьачӏурил це: цада йярдицци, цада ихтийарцци. Ьелттай яҡӏлу ра йяь ра деччил дилле, цалццил ца уццбе гон бугара биккан це. | haɾ ˈmejdam azatˈdex ˈtʃelle tʃihatʃʼuˈɾil tse: tsaˈda jæɾˈditsːi, tsaˈda iχtiˈjaɾtsːi. helˈtːaj ˈæqʼlu ɾa jæh ɾa ˈdetʃːil ˈdille, ˈtsaltsːil tsa utsːˈbe gʷan buˈgaɾa biˈkːan tse. | All human beings are born free and equal in dignity and rights. They are endowed with reason and conscience and should act towards one another in a spirit of brotherhood. |
 
 ## Overview
 
-The modern Kaitag alphabet, based on the Cyrillic script, was developed in 2024 and refined in 2026. It consists of 27 Russian letters (excluding Щщ, Фф, Ыы, Ээ, Ёё, Юю), 3 extended Cyrillic characters (**Ғғ**, **Ҡҡ**, **Ҳҳ**), and 12 digraphs (doubled geminates and ejectives with **Ӏӏ**). Extended notation includes vowels with acute accents for stress and additional digraphs for non-phonemic sounds.
-
-### Version History
-
-**v1.1 (January 2026)**: Reintroduced palochka (**Ӏӏ**) as ejective marker, aligning with Dagestanian orthographic tradition. Added extended notation for stress marking and tense fricatives.
-
-**v1.0 (February 2024)**: Initial release introducing extended Cyrillic characters, uniform consonant series representation, and explicit iotation. Used soft sign (**Ьь**) as dual marker for both /h/ and ejectivity.
+The modern Kaitag alphabet, based on the Cyrillic script, was developed in 2024 and refined in 2026. It consists of 27 Russian letters (excluding Щщ, Фф, Ыы, Ээ, Ёё, Юю), 3 extended Cyrillic letters (**Ғғ**, **Ҡҡ**, **Ҳҳ**), and 12 digraphs (doubled geminates and ejectives with **Ӏӏ**). Extended notation includes vowels with acute accents for stress and additional digraphs for non-phonemic sounds.
 
 ### Script Design
 
@@ -42,7 +36,7 @@ The modern Kaitag alphabet, based on the Cyrillic script, was developed in 2024 
 
 **Letter frequency data:** [letter_frequencies.csv](frequency/data/letter_frequencies.csv)
 
-**Comparison with Soviet Dagestanian orthographies.** Asterisk (\*) marks the conventions from the dissertations on Kaitag by Temirbulatova [2004] and Gasanova [2012]:
+**Comparison with Soviet Dagestanian orthographies.** Asterisk (\*) marks the conventions from the dissertations on Kaitag by Temirbulatova[^1] and Gasanova[^2]:
 
 | Kaitag | IPA      | Soviet Dagestanian                                                                                       |
 | :----- | :------- | :------------------------------------------------------------------------------------------------------- |
@@ -57,31 +51,31 @@ The modern Kaitag alphabet, based on the Cyrillic script, was developed in 2024 
 | **з**  | /z/      |                                                                                                          |
 | **и**  | /i/      |                                                                                                          |
 | **й**  | /j/      | **е**, **я**, **ю** (after vowels or word-initially, each includes the corresponding vowel following it) |
-| **к**  | /k/     |                                                                                                          |
+| **к**  | /k/      |                                                                                                          |
 | **кк** | /kː/     |                                                                                                          |
 | **кӏ** | /kʼ/     |                                                                                                          |
-| **ҡ**  | /q/     | **хъ**, **къ**                                                                                           |
+| **ҡ**  | /q/      | **хъ**, **къ**                                                                                           |
 | **ҡҡ** | /qː/     | **къкъ**\* (intervocally), **къ**                                                                        |
 | **ҡӏ** | /qʼ/     | **кь**, **къ**                                                                                           |
 | **л**  | /l/      |                                                                                                          |
 | **м**  | /m/      |                                                                                                          |
 | **н**  | /n/      |                                                                                                          |
 | **о**  | /ʷa/     | **ва**                                                                                                   |
-| **п**  | /p/     |                                                                                                          |
+| **п**  | /p/      |                                                                                                          |
 | **пп** | /pː/     |                                                                                                          |
 | **пӏ** | /pʼ/     |                                                                                                          |
 | **р**  | /ɾ/      |                                                                                                          |
 | **с**  | /s/      |                                                                                                          |
-| **т**  | /t/     |                                                                                                          |
+| **т**  | /t/      |                                                                                                          |
 | **тт** | /tː/     |                                                                                                          |
 | **тӏ** | /tʼ/     |                                                                                                          |
 | **у**  | /u/      | **ю** (includes preceding **й**)                                                                         |
 | **х**  | /χ/      |                                                                                                          |
 | **ҳ**  | /x/      | **хь**                                                                                                   |
-| **ц**  | /ts/    |                                                                                                          |
+| **ц**  | /ts/     |                                                                                                          |
 | **цц** | /tsː/    |                                                                                                          |
 | **цӏ** | /tsʼ/    |                                                                                                          |
-| **ч**  | /tʃ/    |                                                                                                          |
+| **ч**  | /tʃ/     |                                                                                                          |
 | **чч** | /tʃː/    |                                                                                                          |
 | **чӏ** | /tʃʼ/    |                                                                                                          |
 | **ш**  | /ʃ/      |                                                                                                          |
@@ -134,7 +128,7 @@ Input methods are based on the standard Russian ЙЦУКЕН layout to minimize 
 
 ### Mobile
 
-The layout replaces five keys for the excluded Russian letters **Щ**, **Ф**, **Ы**, **Э**, **Ю** with **Ҡ**, **Ҳ**, **Ғ**, **Ъ**, **Ӏ** respectively. These characters are positioned by frequency, with more frequent ones closer to the center.
+The layout replaces five keys for the excluded Russian letters **Щ**, **Ф**, **Ы**, **Э**, **Ю** with **Ҡ**, **Ҳ**, **Ғ**, **Ъ**, **Ӏ** respectively. These characters are positioned by frequency.
 
 ```
 й ц у к е н г ш ҡ з х
@@ -181,7 +175,7 @@ Linux has built-in compose key support. For macOS, [**macos-compose**](https://g
 ### Data
 
 - **[Kaitag Dictionary](https://urssivar.com/language/dictionary/)** (5,000+ lexemes, in development) with usage examples, notes, and cross-references ([source](https://github.com/urssivar/dictionary))
-- **Reference corpus**: [monocorpus.txt](frequency/monocorpus.txt) (33,615 characters) extracted from Gasanova, U.U. (2013). _Хайдакьла хабарти_ (Kaitag Tales). Makhachkala, 152 p.
+- **Reference corpus**: [monocorpus.txt](frequency/monocorpus.txt) (33,615 characters) extracted from Gasanova[^3]
 - **Unicode exemplar data** (base, auxiliary, marks): [googlefonts/lang: xdq_Cyrl.textproto](https://github.com/googlefonts/lang/blob/main/Lib/gflanguages/data/languages/xdq_Cyrl.textproto)
 
 ### Tools
@@ -197,6 +191,20 @@ Linux has built-in compose key support. For macOS, [**macos-compose**](https://g
 - **[Ethnologue](https://www.ethnologue.com/language/xdq/)**: Global language database
 - **[Omniglot](https://www.omniglot.com/writing/kaitag.htm)**: Encyclopedia of writing systems and languages
 - **[Minority Languages of Russia](https://minlang.iling-ran.ru/lang/kaytagskiy-yazyk)**: Institute of Linguistics, Russian Academy of Sciences
+
+## Version History
+
+**v1.1 (January 2026)**: Reintroduced palochka (**Ӏӏ**) as ejective marker, aligning with Dagestanian orthographic tradition. Added extended notation for stress marking and tense fricatives.
+
+**v1.0 (February 2024)**: Initial release introducing extended Cyrillic characters, uniform consonant series representation, and explicit iotation. Used soft sign (**Ьь**) as dual marker for both /h/ and ejectivity.
+
+## Notes
+
+[^1]: Темирбулатова, С.М. (2006). _Хайдакский диалект даргинского языка_. Диссертация на соискание учёной степени доктора филологических наук. Махачкала.
+
+[^2]: Гасанова, У.У. (2012). _Лексика и словообразование хайдакского диалекта даргинского языка_. Диссертация на соискание учёной степени доктора филологических наук. Махачкала.
+
+[^3]: Гасанова, У.У. (2013). _Хайдакьла хабарти_ (Хайдакские сказки). Махачкала, 152 с. Составитель: Гасанова У.У. Редактор: Сивриди Г.Н.
 
 ## License
 
