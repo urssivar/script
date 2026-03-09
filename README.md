@@ -198,8 +198,6 @@ Linux has built-in compose key support. For macOS, [**macos-compose**](https://g
 
 **v1.0 (February 2024)**: Initial release introducing extended Cyrillic characters, uniform consonant series representation, and explicit iotation. Used soft sign (**Ьь**) as dual marker for both /h/ and ejectivity.
 
-## Notes
-
 [^1]: Темирбулатова, С.М. (2006). _Хайдакский диалект даргинского языка_. Диссертация на соискание учёной степени доктора филологических наук. Махачкала.
 
 [^2]: Гасанова, У.У. (2012). _Лексика и словообразование хайдакского диалекта даргинского языка_. Диссертация на соискание учёной степени доктора филологических наук. Махачкала.
