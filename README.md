@@ -124,7 +124,7 @@ Input methods are based on the standard Russian ЙЦУКЕН layout to minimize 
 - **English**: Kaitag
 - **Russian**: кайтагский
 - **Kaitag**: Хайдаҡӏла
-- **ISO 639-3**: xdq
+- **ISO 639-3**: `xdq`
 
 ### Mobile
 
@@ -180,7 +180,7 @@ Linux has built-in compose key support. For macOS, [**macos-compose**](https://g
 
 ### Tools
 
-- **[Yaziv](https://yaziv.raxys.app/xdq?from=cyr_soviet&to=cyr&text=%D1%86%D0%B0%D0%BA%D1%8A%D0%BA%D1%8A%D0%B0+%D0%BA%D1%8A%D0%B0%D0%B1%D0%B0%D0%B3%D1%8A)** text converter: Supports transliteration between Kaitag Cyrillic and IPA representations
+- **[Yaziv](https://yaziv.raxys.app/xdq?from=cyr_soviet&to=cyr&text=цакъкъа+къабагъ)** text converter: Supports transliteration between Kaitag Cyrillic and IPA representations
   - Current orthography: "Cyrillic"
   - Legacy support: "Cyrillic (2024)", "Soviet Cyrillic"
 - **[Google Fonts](https://fonts.google.com/?preview.size=24&lang=xdq_Cyrl)**: Web font service and library
