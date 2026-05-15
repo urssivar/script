@@ -231,7 +231,7 @@ Linux has built-in compose key support. For macOS, [**macos-compose**](https://g
 
 ## Version History
 
-**v1.2 (May 2026)**: Introduced two extended Cyrillic characters **Ӕӕ** and **Һһ** to replace **Яя** and **Ьь**, removing the mental clash with Russian reading. Palochka **Ӏӏ** additionally serves as a standalone letter for glottal stop /ʔ/.
+**v1.2 (May 2026)**: Introduced two extended Cyrillic characters **Ӕӕ** and **Һһ** to replace **Яя** and **Ьь**, removing the mental clash with Russian reading. Palochka **Ӏӏ** additionally serves as a standalone letter for glottal stop /ʔ/ (previously **Ъъ**).
 
 **v1.1 (January 2026)**: Reintroduced palochka **Ӏӏ** as ejective marker, aligning with Dagestanian orthographic tradition. Added extended notation for stress marking and tense fricatives.
 
