@@ -159,7 +159,7 @@ Accented vowels for stress marking and excluded Russian letters are accessible v
 Leaves the Russian ЙЦУКЕН intact and adds new keys above:
 
 ```
- ' ё ҳ ҡ һ ӏ ӕ ғ ъ -
+! ? ' ҳ ғ ӏ һ ҡ ӕ — "
 й ц у к е н г ш щ з х
 ф ы в а п р о л д ж э
   я ч с м и т ь б ю
@@ -170,13 +170,14 @@ Accented vowels are accessible via long-press:
 ```
 ӕ: ӕ́
 у: у́
-е: е́
+е: е́ ё
 ы: ы́
 а: а́
 о: о́
 э: э́
 я: я́
 и: и́
+ь: ъ
 ю: ю́
 ```
 
@@ -229,7 +230,7 @@ Linux has built-in compose key support. For macOS, [**macos-compose**](https://g
 
 ## Version History
 
-**v1.2 (May 2026)**: Introduced two extended Cyrillic characters **Ӕӕ** and **Һһ** to replace **Яя** and **Ьь**, removing the mental clash with Russian reading. The palochka **Ӏӏ** additionally serves as a standalone letter for glottal stop /ʔ/ (previously **Ъъ**).
+**v1.2 (May 2026)**: Introduced two extended Cyrillic characters **Ӕӕ** and **Һһ** to replace **Яя** and **Ьь**, removing the mental clash with Russian reading. The palochka now **Ӏӏ** additionally serves as a standalone letter for glottal stop /ʔ/ (previously **Ъъ**).
 
 **v1.1 (January 2026)**: Reintroduced the palochka **Ӏӏ** as ejective marker, aligning with Dagestanian orthographic tradition. Added extended notation for stress marking and tense fricatives.
 
