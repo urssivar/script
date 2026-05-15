@@ -159,7 +159,7 @@ Accented vowels for stress marking and excluded Russian letters are accessible v
 Leaves the Russian ЙЦУКЕН intact and adds new keys above:
 
 ```
-' ё ҳ ҡ һ ӏ ӕ ғ ъ -
+ ' ё ҳ ҡ һ ӏ ӕ ғ ъ -
 й ц у к е н г ш щ з х
 ф ы в а п р о л д ж э
   я ч с м и т ь б ю
@@ -181,8 +181,6 @@ Accented vowels are accessible via long-press:
 ```
 
 Available for **Google Gboard** ([Google Play](https://play.google.com/store/apps/details?id=com.google.android.inputmethod.latin)), **Yandex Keyboard** ([Google Play](https://play.google.com/store/apps/details?id=ru.yandex.androidkeyboard), [App Store](https://apps.apple.com/app/andeks-klaviatura/id1053139327)), and **HeliBoard** ([GitHub](https://github.com/Helium314/HeliBoard/releases/latest)).
-
-> Version 1.2 pending update
 
 ### Desktop
 
