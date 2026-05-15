@@ -10,13 +10,13 @@ Technical specification for the Kaitag Cyrillic script.
 
 ## Overview
 
-The modern Kaitag alphabet, based on the Cyrillic script, was developed in 2024 and refined in 2026. It consists of 24 Russian letters (excluding Ёё, Фф, Щщ, Ъъ, Ыы, Ьь, Ээ, Юю, Яя), 6 extended Cyrillic letters (**Ӕӕ**, **Ғғ**, **Ҡҡ**, **Ҳҳ**, **Һһ**, **Ӏӏ**), and 12 digraphs (doubled geminates and ejectives with palochka). Extended notation includes vowels with acute accents for stress and additional digraphs for non-phonemic sounds.
+The modern Kaitag alphabet, based on the Cyrillic script, was developed in 2024 and refined in 2026. It consists of 24 Russian letters (excluding Ёё, Фф, Щщ, Ъъ, Ыы, Ьь, Ээ, Юю, Яя), 6 extended Cyrillic letters (**Ӕӕ**, **Ғғ**, **Ҡҡ**, **Ҳҳ**, **Һһ**, **Ӏӏ**), and 12 digraphs (doubled geminates and ejectives with the palochka). Extended notation includes vowels with acute accents for stress and additional digraphs for non-phonemic sounds.
 
 ### Script Design
 
 1. **Extended Cyrillic**: **Ӕӕ** /æ/, **Ғғ** /ʁ/, **Ҡҡ** /q/, **Ҳҳ** /x/, **Һһ** /h/, **Ӏӏ** /ʔ/. These established characters maintain single-letter representation for basic phonemes.
 
-2. **Uniform series**: doubling for geminates (**пп**, **тт**, **чч**, **цц**, **кк**, **ҡҡ**) and palochka for all ejectives (**пӏ**, **тӏ**, **чӏ**, **цӏ**, **кӏ**, **ҡӏ**). This consistently represents six parallel three-way contrasts (plain/geminate/ejective). Palochka can serve this dual role because glottal stop never occurs after the stops and affricates.
+2. **Uniform series**: doubling for geminates (**пп**, **тт**, **чч**, **цц**, **кк**, **ҡҡ**) and the palochka for all ejectives (**пӏ**, **тӏ**, **чӏ**, **цӏ**, **кӏ**, **ҡӏ**). This consistently represents six parallel three-way contrasts (plain/geminate/ejective). The palochka can serve this dual role because glottal stop never occurs after the stops and affricates.
 
 3. **Letter Оо** represents labialization /ʷa/ before **Аа**, while **Вв** marks both /β/ and rare labialization before other vowels. Since labialization overwhelmingly occurs with /a/, this allows simplified orthography: **беркона** /beɾkʷana/ "to eat" → **беркне** /beɾkne/ (masd.).
 
@@ -231,9 +231,9 @@ Linux has built-in compose key support. For macOS, [**macos-compose**](https://g
 
 ## Version History
 
-**v1.2 (May 2026)**: Introduced two extended Cyrillic characters **Ӕӕ** and **Һһ** to replace **Яя** and **Ьь**, removing the mental clash with Russian reading. Palochka **Ӏӏ** additionally serves as a standalone letter for glottal stop /ʔ/ (previously **Ъъ**).
+**v1.2 (May 2026)**: Introduced two extended Cyrillic characters **Ӕӕ** and **Һһ** to replace **Яя** and **Ьь**, removing the mental clash with Russian reading. The palochka **Ӏӏ** additionally serves as a standalone letter for glottal stop /ʔ/ (previously **Ъъ**).
 
-**v1.1 (January 2026)**: Reintroduced palochka **Ӏӏ** as ejective marker, aligning with Dagestanian orthographic tradition. Added extended notation for stress marking and tense fricatives.
+**v1.1 (January 2026)**: Reintroduced the palochka **Ӏӏ** as ejective marker, aligning with Dagestanian orthographic tradition. Added extended notation for stress marking and tense fricatives.
 
 **v1.0 (February 2024)**: Initial release introducing extended Cyrillic characters **Ғғ**, **Ҡҡ**, and **Ҳҳ**, uniform consonant series representation, and explicit iotation. Used soft sign **Ьь** as dual marker for both /h/ and ejectivity.
 
