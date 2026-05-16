@@ -10,7 +10,7 @@ Technical specification for the Kaitag Cyrillic script.
 
 ## Overview
 
-The modern Kaitag alphabet, based on the Cyrillic script, was developed in 2024 and refined in 2026. It consists of 24 Russian letters (excluding Ёё, Фф, Щщ, Ъъ, Ыы, Ьь, Ээ, Юю, Яя), 6 extended Cyrillic letters (**Ӕӕ**, **Ғғ**, **Ҡҡ**, **Ҳҳ**, **Һһ**, **Ӏӏ**), and 12 digraphs (doubled geminates and ejectives with the palochka). Extended notation includes vowels with acute accents for stress and additional digraphs for non-phonemic sounds.
+The modern Kaitag alphabet, based on the Cyrillic script, was developed in 2024 and refined in 2026. It consists of 24 Russian letters (excluding **Ёё**, **Фф**, **Щщ**, **Ъъ**, **Ыы**, **Ьь**, **Ээ**, **Юю**, **Яя**), 6 extended Cyrillic letters (**Ӕӕ**, **Ғғ**, **Ҡҡ**, **Ҳҳ**, **Һһ**, **Ӏӏ**), and 12 digraphs (doubled geminates and ejectives with the palochka). Extended notation includes vowels with acute accents for stress and additional digraphs for non-phonemic sounds.
 
 ### Script Design
 
@@ -133,7 +133,7 @@ Available for **Google Gboard** ([Google Play](https://play.google.com/store/app
 
 #### 3-row
 
-Replaces seven keys for the excluded Russian letters **Щ**, **Ф**, **Ы**, **Э**, **Я**, **Ь**, **Ю** with **Ҡ**, **Ҳ**, **Ғ**, **Ӏ**, **Ӕ**, **Һ**, **-**. These characters are positioned roughly by frequency.
+Replaces six keys for the excluded Russian letters **Щ**, **Ф**, **Ы**, **Э**, **Я**, **Ь** with **Ҡ**, **Ҳ**, **Ғ**, **Ӏ**, **Ӕ**, **Һ** (and removes **Ю**). These characters are positioned roughly by frequency.
 
 ```
 й ц у к е н г ш ҡ з х
