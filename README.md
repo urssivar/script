@@ -138,7 +138,7 @@ Replaces seven keys for the excluded Russian letters **Щ**, **Ф**, **Ы**, **�
 ```
 й ц у к е н г ш ҡ з х
 ҳ ғ в а п р о л д ж ӏ
-  ӕ ч с м и т һ б -
+   ӕ ч с м и т һ б
 ```
 
 Accented vowels for stress marking and excluded Russian letters are accessible via long-press:
