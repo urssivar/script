@@ -14,13 +14,13 @@ The modern Kaitag alphabet, based on the Cyrillic script, was developed in 2024 
 
 ### Script Design
 
-1. **Extended Cyrillic**: **Ӕӕ** /æ/, **Ғғ** /ʁ/, **Ҡҡ** /q/, **Ҳҳ** /x/, **Һһ** /h/, **Ӏӏ** /ʔ/. These established characters maintain single-letter representation for basic phonemes.
+1. **Extended Cyrillic**: **ӕ** /æ/, **ғ** /ʁ/, **ҡ** /q/, **ҳ** /x/, **һ** /h/, **ӏ** /ʔ/. These established characters maintain single-letter representation for basic phonemes.
 
 2. **Uniform series**: doubling for geminates (**пп**, **тт**, **чч**, **цц**, **кк**, **ҡҡ**) and the palochka for all ejectives (**пӏ**, **тӏ**, **чӏ**, **цӏ**, **кӏ**, **ҡӏ**). This consistently represents six parallel three-way contrasts (plain/geminate/ejective). The palochka can serve this dual role because glottal stop never occurs after the stops and affricates.
 
-3. **Letter Оо** represents labialization /ʷa/ before **Аа**, while **Вв** marks both /β/ and rare labialization before other vowels. Since labialization overwhelmingly occurs with /a/, this allows simplified orthography: **беркона** /beɾkʷana/ "to eat" → **беркне** /beɾkne/ (masd.).
+3. **Letter о** represents labialization /ʷa/ before **а**, while **в** marks both /β/ and rare labialization before other vowels. Since labialization overwhelmingly occurs with /a/, this allows simplified orthography: **беркона** /beɾkʷana/ "to eat" → **беркне** /beɾkne/ (masd.).
 
-4. **Explicit iotation**: **Ее** /e/ is always a pure vowel, and **Йй** /j/ is written explicitly everywhere. This eliminates Russian's context-dependent vowel readings, creating one-to-one sound-letter correspondence.
+4. **Explicit iotation**: **е** /e/ is always a pure vowel, and **й** /j/ is written explicitly everywhere. This eliminates Russian's context-dependent vowel readings, creating one-to-one sound-letter correspondence.
 
 ## Alphabet
 
@@ -108,11 +108,11 @@ The modern Kaitag alphabet, based on the Cyrillic script, was developed in 2024 
 
 Beyond the core alphabet, extended orthographic notation includes:
 
-- **Acute diacritics** for stress marking: **а́**, **ӕ́**, **е́**, **и́**, **о́**, **у́**
+- **Acute diacritics** (stress marking): **а́**, **ӕ́**, **е́**, **и́**, **о́**, **у́**
 - **Tense fricatives** (phonemic status uncertain): **сс** /sː/, **хх** /χː/, **ҳҳ** /xː/, **шш** /ʃː/
 - **Marginal sounds** (onomatopoeia): **ву** /w/, **гҳ** /ɣ/, **пв** /ɸ/
 - **Dialectal sounds**: **гӏ** /ʡ/, **хӏ** /ħ/, **ю** /uˤ/
-- **Russian letters**: loanwords and proper nouns use the full Russian alphabet (**ё**, **ф**, **щ**, **ъ**, **ы**, **ь**, **э**, **ю**, **я**)
+- **Russian letters** (loanwords and proper nouns): **ё**, **ф**, **щ**, **ъ**, **ы**, **ь**, **э**, **ю**, **я**
 
 These elements are not part of the standard alphabet but are used for precise phonetic documentation, pedagogical purposes, and dialectal variation.
 
@@ -133,7 +133,7 @@ Available for **Google Gboard** ([Google Play](https://play.google.com/store/app
 
 #### 3-row
 
-Replaces six keys for the excluded Russian letters **Щ**, **Ф**, **Ы**, **Э**, **Я**, **Ь** with **Ҡ**, **Ҳ**, **Ғ**, **Ӏ**, **Ӕ**, **Һ** (and removes **Ю**). These characters are positioned roughly by frequency.
+Replaces six keys for the excluded Russian letters **щ**, **ф**, **ы**, **э**, **я**, **ь** with **ҡ**, **ҳ**, **ғ**, **ӏ**, **ӕ**, **һ** (and removes **ю**). These characters are positioned roughly by frequency.
 
 ```
 й ц у к е н г ш ҡ з х
