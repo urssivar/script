@@ -204,6 +204,7 @@ Example configuration for [**WinCompose**](https://github.com/samhocevar/wincomp
 <Multi_key> <ь> : "һ"  # CYRILLIC SMALL LETTER SHHA
 <Multi_key> <!> : "Ӏ"  # CYRILLIC CAPITAL LETTER PALOCHKA
 <Multi_key> <1> : "ӏ"  # CYRILLIC SMALL LETTER PALOCHKA
+<Multi_key> <ё> : "́"   # COMBINING ACUTE ACCENT (U+0301)
 ```
 
 Linux has built-in compose key support. For macOS, [**macos-compose**](https://github.com/Granitosaurus/macos-compose) is available.
