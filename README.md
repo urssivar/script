@@ -32,7 +32,7 @@ The modern Kaitag alphabet, based on the Cyrillic script, was developed in 2024 
 
 **Collation order:** The alphabet sequence above defines the sorting order. Digraphs are treated as single letters sorting after their base consonant; extended characters follow their base letters (`ӕ` after `а`, `ғ` after `г`, `ҡ` after `к`, `ҳ` then `һ` after `х`, and `ӏ` the last).
 
-**Letter frequency data:** [letter_frequencies.csv](frequency/data/letter_frequencies.csv)
+**Letter frequency data:** [letters.csv](corpus/letters.csv)
 
 **Comparison with Soviet Dagestanian orthographies.** Asterisk (\*) marks the conventions from the dissertations on Kaitag by Temirbulatova[^1] and Gasanova[^2]:
 
@@ -89,7 +89,7 @@ The modern Kaitag alphabet, based on the Cyrillic script, was developed in 2024 
 а ӕ б в г ғ д е ж з и й к ҡ л м н о п р с т у х ҳ һ ц ч ш ӏ
 ```
 
-**Character frequency data:** [character_frequencies.csv](frequency/data/character_frequencies.csv)
+**Character frequency data:** [characters.csv](corpus/characters.csv)
 
 **Extended Cyrillic characters:**
 
@@ -214,7 +214,7 @@ Linux has built-in compose key support. For macOS, [**macos-compose**](https://g
 ### Data
 
 - **[Kaitag Dictionary](https://urssivar.com/language/dictionary/)** (5,000+ lexemes, in development) with usage examples, notes, and cross-references ([source](https://github.com/urssivar/dictionary))
-- **Reference corpus**: [monocorpus.txt](frequency/monocorpus.txt) (33,615 characters) extracted from Gasanova[^3]
+- **Reference corpus**: [monocorpus.txt](corpus/monocorpus.txt) (33,615 characters) extracted from Gasanova[^3]
 - **Unicode exemplar data** (base, auxiliary, marks): [googlefonts/lang: xdq_Cyrl.textproto](https://github.com/googlefonts/lang/blob/main/Lib/gflanguages/data/languages/xdq_Cyrl.textproto)
 
 ### Tools
