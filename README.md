@@ -129,6 +129,8 @@ Input methods are based on the standard Russian ЙЦУКЕН layout to minimize 
 
 ### Mobile
 
+Available for **Google Gboard** ([Google Play](https://play.google.com/store/apps/details?id=com.google.android.inputmethod.latin)), **Yandex Keyboard** ([Google Play](https://play.google.com/store/apps/details?id=ru.yandex.androidkeyboard), [App Store](https://apps.apple.com/app/andeks-klaviatura/id1053139327)), and **HeliBoard** ([GitHub](https://github.com/Helium314/HeliBoard/releases/latest)).
+
 #### 3-row
 
 Replaces seven keys for the excluded Russian letters **Щ**, **Ф**, **Ы**, **Э**, **Я**, **Ь**, **Ю** with **Ҡ**, **Ҳ**, **Ғ**, **Ӏ**, **Ӕ**, **Һ**, **-**. These characters are positioned roughly by frequency.
@@ -165,6 +167,8 @@ Leaves the Russian ЙЦУКЕН intact and adds new keys above:
   я ч с м и т ь б ю
 ```
 
+> If the keyboard does not place `.` and `,` around the spacebar, replace **"** and **'** in the top row with them.
+
 Accented vowels are accessible via long-press:
 
 ```
@@ -180,8 +184,6 @@ Accented vowels are accessible via long-press:
 ь: ъ
 ю: ю́
 ```
-
-Available for **Google Gboard** ([Google Play](https://play.google.com/store/apps/details?id=com.google.android.inputmethod.latin)), **Yandex Keyboard** ([Google Play](https://play.google.com/store/apps/details?id=ru.yandex.androidkeyboard), [App Store](https://apps.apple.com/app/andeks-klaviatura/id1053139327)), and **HeliBoard** ([GitHub](https://github.com/Helium314/HeliBoard/releases/latest)).
 
 ### Desktop
 
