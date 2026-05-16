@@ -161,13 +161,13 @@ Accented vowels for stress marking and excluded Russian letters are accessible v
 Leaves the Russian ЙЦУКЕН intact and adds new keys above:
 
 ```
-! ' ? ҳ ғ ӏ һ ҡ ӕ — "
+' ! ? ҳ ғ ӏ һ ҡ ӕ — "
 й ц у к е н г ш щ з х
 ф ы в а п р о л д ж э
   я ч с м и т ь б ю
 ```
 
-> If the keyboard does not place `.` and `,` around the spacebar, replace **"** and **'** in the top row with them.
+> If the keyboard does not place `,` and `.` around the spacebar, replace `'` and `"` in the top row with them.
 
 Accented vowels are accessible via long-press:
 
