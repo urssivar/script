@@ -150,13 +150,13 @@ Accented vowels for stress marking and excluded Russian letters are accessible v
 у: ю у́
 е: э е́ ё
 ш: щ
+ә: ә́
+ӏ: ъ
+һ: ь
 а: я а́
 п: ф
 о: о́
-ӏ: ъ
-ә: ә́
 и: ы и́
-һ: ь
 ```
 
 #### 4-row
