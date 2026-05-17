@@ -2,6 +2,9 @@
 
 Technical specification for the Kaitag Cyrillic script.
 
+> [!IMPORTANT]
+> This is a draft of **v1.2**, pending thorough review and approval (tentatively 2027). The current stable version is [**v1.1**](https://github.com/urssivar/script/tree/v1.1).
+
 **Example:**
 
 | Kaitag                                                                                                                                                | IPA                                                                                                                                                                                 | English                                                                                                                                                                    |
