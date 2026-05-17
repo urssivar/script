@@ -136,12 +136,12 @@ Available for **Google Gboard** ([Google Play](https://play.google.com/store/app
 
 #### 3-row
 
-Replaces six keys for the excluded Russian letters **щ**, **ф**, **ы**, **э**, **я**, **ь** with **ҡ**, **ҳ**, **ғ**, **ӏ**, **ӕ**, **һ** (and removes **ю**). These characters are positioned roughly by frequency.
+Replaces **щ**, **ф**, **ы**, **э**, **ь**, **ю** with **ӕ**, **ӏ**, **һ**, **ҳ**, **ҡ**, **ғ**, keeping **я**. More frequent Kaitag letters occupy more accessible keys.
 
 ```
-й ц у к е н г ш ҡ з х
-ҳ ғ в а п р о л д ж ӏ
-   ӕ ч с м и т һ б
+й ц у к е н г ш ӕ з х
+ӏ һ в а п р о л д ж ҳ
+  я ч с м и т ҡ б ғ
 ```
 
 Accented vowels for stress marking and excluded Russian letters are accessible via long-press:
@@ -164,7 +164,7 @@ Accented vowels for stress marking and excluded Russian letters are accessible v
 Leaves the Russian ЙЦУКЕН intact and adds new keys above:
 
 ```
-' ! ? ҳ ғ ӏ һ ҡ ӕ — "
+' ! ? ғ ҡ ӏ һ ӕ ҳ — "
 й ц у к е н г ш щ з х
 ф ы в а п р о л д ж э
   я ч с м и т ь б ю
