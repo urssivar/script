@@ -23,7 +23,7 @@ The modern Kaitag Cyrillic alphabet was developed in 2024 and updated in 2026. I
 
 3. **Palochka**: beyond marking ejectives, **ӏ** also stands alone for /ʔ/. This dual role is licensed by a phonotactic constraint: the glottal stop occurs only after vowels or sonorants, never after stops or affricates. Word-initial /ʔ/ is phonetic and unwritten.
 
-4. **Labialization**: letter **о** is shorthand for **-ва** /ʷa/ after a consonant. This is both the dominant context and a productive one: labialization cannot end a syllable, so when the vowel drops in inflection, the labialization drops with it — **беркона** /beɾkʷana/ "to eat" → **беркне** /beɾkne/ (masd.). Bundling /ʷa/ into one letter keeps these alternations clean. Before **ә** /æ/ and **е** /e/, labialization is lexicalized and **в** is used instead: **швел** /ʃʷel/ "five", **ҡвә** /qʷæ/ "oath".
+4. **Labialization**: letter **о** is shorthand for **-ва** /ʷa/ after a consonant. This is both the dominant context and a productive one: labialization cannot end a syllable, so when the vowel drops in inflection, the labialization drops with it — **беркона** /beɾkʷana/ "to eat" → **беркне** /beɾkne/ (masd.). Bundling /ʷa/ into one letter keeps these alternations clean. In the rare case before **ә** /æ/ or **е** /e/, labialization is lexicalized and **в** is used instead: **швел** /ʃʷel/ "five", **ҡвә** /qʷæ/ "oath".
 
 5. **Explicit iotation**: **е** /e/ is always a pure vowel, and **й** /j/ is written explicitly everywhere. This eliminates Russian's context-dependent vowel readings, creating one-to-one sound-letter correspondence.
 
@@ -35,11 +35,11 @@ The modern Kaitag Cyrillic alphabet was developed in 2024 and updated in 2026. I
 а ә б в г ғ д е ж з и й к кк кӏ ҡ ҡҡ ҡӏ л м н о п пп пӏ р с т тт тӏ у х ҳ һ ц цц цӏ ч чч чӏ ш ӏ
 ```
 
-**Collation order:** The alphabet sequence above defines the sorting order. Digraphs are treated as single letters sorting after their base consonant; extended characters follow their base letters (`ә` after `а`, `ғ` after `г`, `ҡ` after `к`, `ҳ` then `һ` after `х`, and `ӏ` the last).
+**Collation order:** The alphabet sequence above defines the sorting order. Digraphs are treated as single letters sorting after their base consonant, and extended characters follow their base letters — `ә` after `а`, `ғ` after `г`, `ҡ` after `к`, `ҳ` then `һ` after `х`, with `ӏ` sorting last.
 
 **Letter frequency data:** [letters.csv](corpus/letters.csv)
 
-**Comparison with Soviet Dagestani orthographies.** Asterisk (\*) marks the conventions from the dissertations on Kaitag by Temirbulatova[^1] and Gasanova[^2]:
+**Comparison with Soviet Dagestani orthographies.** Empty cells indicate identical representation, and an asterisk (\*) marks the conventions from the dissertations on Kaitag by Temirbulatova[^1] and Gasanova[^2]:
 
 | Kaitag | IPA      | Soviet Dagestani                                                     |
 | :----- | :------- | :------------------------------------------------------------------- |
@@ -117,7 +117,7 @@ Beyond the core alphabet, extended orthographic notation includes:
 - **Tense fricatives** (phonemic status uncertain): **сс** /sː/, **хх** /χː/, **ҳҳ** /xː/, **шш** /ʃː/
 - **Marginal sounds** (onomatopoeia): **ву** /w/, **гҳ** /ɣ/, **пв** /ɸ/
 - **Dialectal sounds**: **гӏ** /ʡ/, **хӏ** /ħ/, **ю** /uˤ/
-- **Russian letters** (loanwords and proper nouns): **ё**, **ф**, **щ**, **ъ**, **ы**, **ь**, **э**, **ю**, **я**
+- **Russian letters** (unassimilated loanwords and proper nouns): **ё**, **ф**, **щ**, **ъ**, **ы**, **ь**, **э**, **ю**, **я**
 
 These elements are not part of the standard alphabet but are used for precise phonetic documentation, pedagogical purposes, and dialectal variation.
 
