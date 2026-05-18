@@ -13,7 +13,7 @@ Technical specification for the Kaitag Cyrillic script.
 
 ## Overview
 
-The modern Kaitag alphabet, based on the Cyrillic script, was developed in 2024 and refined in 2026. It consists of 24 Russian letters (excluding **Ёё**, **Фф**, **Щщ**, **Ъъ**, **Ыы**, **Ьь**, **Ээ**, **Юю**, **Яя**), 6 extended Cyrillic letters (**Әә**, **Ғғ**, **Ҡҡ**, **Ҳҳ**, **Һһ**, **Ӏӏ**), and 12 digraphs (doubled geminates and ejectives with the palochka). Extended notation includes vowels with acute accents for stress and additional digraphs for non-phonemic sounds.
+The modern Kaitag alphabet, based on the Cyrillic script, was developed in 2024 and updated in 2026. It consists of 24 Russian letters (excluding **Ёё**, **Фф**, **Щщ**, **Ъъ**, **Ыы**, **Ьь**, **Ээ**, **Юю**, **Яя**), 6 extended Cyrillic letters (**Әә**, **Ғғ**, **Ҡҡ**, **Ҳҳ**, **Һһ**, **Ӏӏ**), and 12 digraphs (doubled geminates and ejectives with the palochka). Extended notation includes vowels with acute accents for stress and additional digraphs for non-phonemic sounds.
 
 ### Script Design
 
@@ -98,7 +98,7 @@ The modern Kaitag alphabet, based on the Cyrillic script, was developed in 2024 
 
 | Character | Unicode        | Name                              |
 | --------- | -------------- | --------------------------------- |
-| Ә ә       | U+04D8, U+04D9 | Cyrillic Letter Schwa              |
+| Ә ә       | U+04D8, U+04D9 | Cyrillic Letter Schwa             |
 | Ғ ғ       | U+0492, U+0493 | Cyrillic Letter Ghe with Stroke   |
 | Ҡ ҡ       | U+04A0, U+04A1 | Cyrillic Letter Bashkir Ka        |
 | Ҳ ҳ       | U+04B2, U+04B3 | Cyrillic Letter Ha with Descender |
