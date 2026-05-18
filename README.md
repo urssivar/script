@@ -37,9 +37,9 @@ The modern Kaitag Cyrillic alphabet was developed in 2024 and updated in 2026. I
 
 **Letter frequency data:** [letters.csv](corpus/letters.csv)
 
-**Comparison with Soviet Dagestanian orthographies.** Asterisk (\*) marks the conventions from the dissertations on Kaitag by Temirbulatova[^1] and Gasanova[^2]:
+**Comparison with Soviet Dagestani orthographies.** Asterisk (\*) marks the conventions from the dissertations on Kaitag by Temirbulatova[^1] and Gasanova[^2]:
 
-| Kaitag | IPA      | Soviet Dagestanian                                                   |
+| Kaitag | IPA      | Soviet Dagestani                                                     |
 | :----- | :------- | :------------------------------------------------------------------- |
 | **а**  | /a/      | **а**; **я** (iotated)                                               |
 | **ә**  | /æ/      | **я**, **аь**, **аӏ**; **гӏя**\* (word-initially); **я**\* (iotated) |
@@ -238,7 +238,7 @@ Linux has built-in compose key support. For macOS, [**macos-compose**](https://g
 
 **v1.2 (May 2026)**: Introduced two extended Cyrillic characters **Әә** and **Һһ** to replace **Яя** and **Ьь**, removing the mental clash with Russian reading. The palochka **Ӏӏ** additionally serves as a standalone letter for glottal stop /ʔ/ (previously **Ъъ**).
 
-**v1.1 (January 2026)**: Reintroduced the palochka **Ӏӏ** as ejective marker, aligning with Dagestanian orthographic tradition. Added extended notation for stress marking and tense fricatives.
+**v1.1 (January 2026)**: Reintroduced the palochka **Ӏӏ** as ejective marker, aligning with Dagestani orthographic tradition. Added extended notation for stress marking and tense fricatives.
 
 **v1.0 (February 2024)**: Initial release introducing extended Cyrillic characters **Ғғ**, **Ҡҡ**, and **Ҳҳ**, uniform consonant series representation, and explicit iotation. Used soft sign **Ьь** as dual marker for both /h/ and ejectivity.
 
