@@ -17,13 +17,15 @@ The modern Kaitag Cyrillic alphabet was developed in 2024 and updated in 2026. I
 
 ### Script Design
 
-1. **Extended Cyrillic**: **ә** /æ/, **ғ** /ʁ/, **ҡ** /q/, **ҳ** /x/, **һ** /h/, **ӏ** /ʔ/. These established characters maintain single-letter representation for basic phonemes.
+1. **Extended Cyrillic**: **ә** /æ/, **ғ** /ʁ/, **ҡ** /q/, **ҳ** /x/, **һ** /h/, **ӏ** /ʔ/. These established characters give each basic phoneme a single-letter representation.
 
-2. **Uniform series**: doubling for geminates (**пп**, **тт**, **чч**, **цц**, **кк**, **ҡҡ**) and the palochka for all ejectives (**пӏ**, **тӏ**, **чӏ**, **цӏ**, **кӏ**, **ҡӏ**). This consistently represents six parallel three-way contrasts (plain/geminate/ejective). The palochka can serve this dual role because glottal stop never occurs after the stops and affricates.
+2. **Uniform series**: doubling for geminates (**пп**, **тт**, **чч**, **цц**, **кк**, **ҡҡ**) and the palochka for ejectives (**пӏ**, **тӏ**, **чӏ**, **цӏ**, **кӏ**, **ҡӏ**). This represents six parallel three-way contrasts (plain/geminate/ejective).
 
-3. **Letter о** represents labialization /ʷa/ before **а**, while **в** marks both /β/ and rare labialization before other vowels. Since labialization overwhelmingly occurs with /a/, this allows simplified orthography: **беркона** /beɾkʷana/ "to eat" → **беркне** /beɾkne/ (masd.).
+3. **Palochka**: beyond marking ejectives, **ӏ** also stands alone for /ʔ/. This dual role is licensed by a phonotactic constraint: the glottal stop occurs only after vowels or sonorants, never after stops or affricates. Word-initial /ʔ/ is phonetic and unwritten.
 
-4. **Explicit iotation**: **е** /e/ is always a pure vowel, and **й** /j/ is written explicitly everywhere. This eliminates Russian's context-dependent vowel readings, creating one-to-one sound-letter correspondence.
+4. **Labialization**: letter **о** is shorthand for **-ва** /ʷa/ after a consonant. This is both the dominant context and a productive one: labialization cannot end a syllable, so when the vowel drops in inflection, the labialization drops with it — **беркона** /beɾkʷana/ "to eat" → **беркне** /beɾkne/ (masd.). Bundling /ʷa/ into one letter keeps these alternations clean. Before **ә** /æ/ and **е** /e/, labialization is lexicalized and **в** is used instead: **швел** /ʃʷel/ "five", **ҡвә** /qʷæ/ "oath".
+
+5. **Explicit iotation**: **е** /e/ is always a pure vowel, and **й** /j/ is written explicitly everywhere. This eliminates Russian's context-dependent vowel readings, creating one-to-one sound-letter correspondence.
 
 ## Alphabet
 
