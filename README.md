@@ -136,7 +136,7 @@ Available for **Google Gboard** ([Google Play](https://play.google.com/store/app
 
 #### 3-row
 
-Replaces **щ**, **ф**, **ы**, **э**, **ь**, **ю** with **ә**, **ӏ**, **һ**, **ҳ**, **ҡ**, **ғ**, keeping **я**. More frequent Kaitag letters occupy more accessible keys.
+Replaces **щ**, **ф**, **ы**, **э**, **ь**, **ю** with **ӏ**, **ҡ**, **һ**, **ҳ**, **ә**, **ғ**, keeping **я**. More frequent Kaitag letters occupy more accessible keys.
 
 ```
 й ц у к е н г ш ӏ з х
