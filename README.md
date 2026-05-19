@@ -34,7 +34,7 @@ The alphabet draws systematically on established conventions across the Cyrillic
 
 42 letters, of which 12 are digraphs:
 
-```
+```text
 а ә б в г ғ д е ж з и й к кк кӏ ҡ ҡҡ ҡӏ л м н о п пп пӏ р с т тт тӏ у х ҳ һ ц цц цӏ ч чч чӏ ш ӏ
 ```
 
@@ -93,7 +93,7 @@ The alphabet draws systematically on established conventions across the Cyrillic
 
 30 unique characters, of which 6 are from extended Cyrillic:
 
-```
+```text
 а ә б в г ғ д е ж з и й к ҡ л м н о п р с т у х ҳ һ ц ч ш ӏ
 ```
 
@@ -141,7 +141,7 @@ Available for **Google Gboard** ([Google Play](https://play.google.com/store/app
 
 Replaces six of seven excluded Russian letters: `щ` → `ӏ`, `ф` → `ҡ`, `ы` → `һ`, `э` → `ҳ`, `ь` → `ә`, `ю` → `ғ`. `я` keeps its slot as the most frequent of the excluded set. Placement reflects character frequency (see [characters.csv](corpus/characters.csv)).
 
-```
+```text
 й ц у к е н г ш ӏ з х
 ҡ һ в а п р о л д ж ҳ
   я ч с м и т ә б ғ
@@ -149,7 +149,7 @@ Replaces six of seven excluded Russian letters: `щ` → `ӏ`, `ф` → `ҡ`, `�
 
 Accented vowels for stress marking and excluded Russian letters are accessible via long-press:
 
-```
+```text
 у: ю у́
 е: э е́ ё
 ш: щ
@@ -166,7 +166,7 @@ Accented vowels for stress marking and excluded Russian letters are accessible v
 
 Leaves the Russian ЙЦУКЕН intact and adds new keys above:
 
-```
+```text
 ' ! ? ғ ҡ һ ӏ ә ҳ — "
 й ц у к е н г ш щ з х
 ф ы в а п р о л д ж э
@@ -177,7 +177,7 @@ _Replace `'` and `"` with `,` and `.` if your keyboard lacks them around the spa
 
 Accented vowels are accessible via long-press:
 
-```
+```text
 ә: ә́
 у: у́
 е: е́ ё
@@ -197,7 +197,7 @@ The script requires six additional characters compared to standard Russian, plus
 
 Example configuration for [**WinCompose**](https://github.com/samhocevar/wincompose) on Windows:
 
-```
+```text
 <Multi_key> <А> : "Ә"  # CYRILLIC CAPITAL LETTER SCHWA
 <Multi_key> <а> : "ә"  # CYRILLIC SMALL LETTER SCHWA
 <Multi_key> <Г> : "Ғ"  # CYRILLIC CAPITAL LETTER GHE WITH STROKE
