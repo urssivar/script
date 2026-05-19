@@ -18,7 +18,7 @@ _The Universal Declaration of Human Rights, Article 1:_
 
 ## Design
 
-The alphabet draws systematically on established conventions across the Cyrillic ecosystem — Turkic and North Caucasian — selecting individual solutions on their merits rather than aligning with any single regional tradition. Five design decisions follow:
+The alphabet draws systematically on established conventions across the Cyrillic ecosystem, selecting individual solutions on their merits rather than aligning with any single regional tradition. Five design decisions follow:
 
 1. **Extended Cyrillic**: Each basic phoneme has a dedicated single-letter representation — **ә** /æ/, **ғ** /ʁ/, **ҡ** /q/, **ҳ** /x/, **һ** /h/, **ӏ** /ʔ/.
 
