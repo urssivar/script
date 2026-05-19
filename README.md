@@ -1,31 +1,32 @@
 # Kaitag Script
 
-Technical specification for the Kaitag Cyrillic script.
+> Draft of **v1.2**, pending review (tentative finalization 2027). Stable version: [**v1.1**](https://github.com/urssivar/script/tree/v1.1).
 
-> [!IMPORTANT]
-> This is a draft of **v1.2**, pending thorough review and approval (tentatively 2027). The current stable version is [**v1.1**](https://github.com/urssivar/script/tree/v1.1).
+The modern Kaitag Cyrillic alphabet was developed in 2024 and updated in 2026. It uses 24 letters from the Russian alphabet, 6 extended Cyrillic letters (**Әә**, **Ғғ**, **Ҡҡ**, **Ҳҳ**, **Һһ**, **Ӏӏ**), and 12 digraphs for geminates and ejectives.
 
-**Example:**
+<!--
+Alternative longer summary for external references where the full Script Design section isn't available:
+
+The modern Kaitag Cyrillic alphabet was developed in 2024 and updated in 2026. It consists of 24 letters from the Russian alphabet (excluding **Ёё**, **Фф**, **Щщ**, **Ъъ**, **Ыы**, **Ьь**, **Ээ**, **Юю**, **Яя**), 6 extended Cyrillic letters (**Әә**, **Ғғ**, **Ҡҡ**, **Ҳҳ**, **Һһ**, **Ӏӏ**), and 12 digraphs (doubled geminates and ejectives with the palochka). Extended notation covers stress marking, marginal and dialectal sounds, and loanword letters.
+-->
+
+_The Universal Declaration of Human Rights, Article 1:_
 
 | Kaitag                                                                                                                                                | IPA                                                                                                                                                                                 | English                                                                                                                                                                    |
 | :---------------------------------------------------------------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Һар мейдам азатдеҳ челле чи һачӏурил це: цада йәрдицци, цада ихтийарцци. Һелттай әҡӏлу ра йәһ ра деччил дилле, цалццил ца уццбе гон бугара биккан це. | haɾ ˈmejdam azatˈdex ˈtʃelle tʃihatʃʼuˈɾil tse: tsaˈda jæɾˈditsːi, tsaˈda iχtiˈjaɾtsːi. helˈtːaj ˈæqʼlu ɾa jæh ɾa ˈdetʃːil ˈdille, ˈtsaltsːil tsa utsːˈbe gʷan buˈgaɾa biˈkːan tse. | All human beings are born free and equal in dignity and rights. They are endowed with reason and conscience and should act towards one another in a spirit of brotherhood. |
 
-## Overview
+## Script Design
 
-The modern Kaitag Cyrillic alphabet was developed in 2024 and updated in 2026. It consists of 24 letters from the Russian alphabet (excluding **Ёё**, **Фф**, **Щщ**, **Ъъ**, **Ыы**, **Ьь**, **Ээ**, **Юю**, **Яя**), 6 extended Cyrillic letters (**Әә**, **Ғғ**, **Ҡҡ**, **Ҳҳ**, **Һһ**, **Ӏӏ**), and 12 digraphs (doubled geminates and ejectives with the palochka). Extended notation covers stress marking, marginal and dialectal sounds, and loanword letters.
+1. **Extended Cyrillic**: Each basic phoneme has a dedicated single-letter representation — **ә** /æ/, **ғ** /ʁ/, **ҡ** /q/, **ҳ** /x/, **һ** /h/, **ӏ** /ʔ/.
 
-### Script Design
+2. **Uniform series**: Geminates are doubled (**пп**, **тт**, **чч**, **цц**, **кк**, **ҡҡ**) and ejectives take the palochka (**пӏ**, **тӏ**, **чӏ**, **цӏ**, **кӏ**, **ҡӏ**), producing six parallel three-way contrasts (plain/geminate/ejective).
 
-1. **Extended Cyrillic**: **ә** /æ/, **ғ** /ʁ/, **ҡ** /q/, **ҳ** /x/, **һ** /h/, **ӏ** /ʔ/. These established characters give each basic phoneme a single-letter representation.
+3. **Palochka**: **ӏ** marks ejectives and also stands alone for /ʔ/. The dual role is licensed phonotactically: the glottal stop occurs only after vowels or sonorants, never after stops or affricates. Word-initial /ʔ/ is phonetic and unwritten.
 
-2. **Uniform series**: doubling for geminates (**пп**, **тт**, **чч**, **цц**, **кк**, **ҡҡ**) and the palochka for ejectives (**пӏ**, **тӏ**, **чӏ**, **цӏ**, **кӏ**, **ҡӏ**). This represents six parallel three-way contrasts (plain/geminate/ejective).
+4. **Labialization**: Letter **о** is shorthand for **-ва** /ʷa/ after a consonant — the dominant context and a productive one. Labialization cannot end a syllable, so when the vowel drops in inflection, the labialization drops with it — **беркона** /beɾkʷana/ "to eat" → **беркне** /beɾkne/ (masd.) — and the single-letter encoding tracks this alternation directly. In the rare case before **ә** /æ/ or **е** /e/, labialization is lexicalized and **-в** is used instead: **швел** /ʃʷel/ "five", **ҡвә** /qʷæ/ "oath".
 
-3. **Palochka**: beyond marking ejectives, **ӏ** also stands alone for /ʔ/. This dual role is licensed by a phonotactic constraint: the glottal stop occurs only after vowels or sonorants, never after stops or affricates. Word-initial /ʔ/ is phonetic and unwritten.
-
-4. **Labialization**: letter **о** is shorthand for **-ва** /ʷa/ after a consonant. This is both the dominant context and a productive one: labialization cannot end a syllable, so when the vowel drops in inflection, the labialization drops with it — **беркона** /beɾkʷana/ "to eat" → **беркне** /beɾkne/ (masd.). Bundling /ʷa/ into one letter keeps these alternations clean. In the rare case before **ә** /æ/ or **е** /e/, labialization is lexicalized and **в** is used instead: **швел** /ʃʷel/ "five", **ҡвә** /qʷæ/ "oath".
-
-5. **Explicit iotation**: **е** /e/ is always a pure vowel, and **й** /j/ is written explicitly everywhere. This eliminates Russian's context-dependent vowel readings, creating one-to-one sound-letter correspondence.
+5. **Explicit iotation**: **й** /j/ is always written, and **е** /e/ is always a pure vowel. This removes Russian's context-dependent readings and creates one-to-one sound-letter correspondence: **йулған** /julʁan/ "quilt", **йерга** /jerga/ "turn", **етти** /etːi/ "to you".
 
 ## Alphabet
 
@@ -35,11 +36,11 @@ The modern Kaitag Cyrillic alphabet was developed in 2024 and updated in 2026. I
 а ә б в г ғ д е ж з и й к кк кӏ ҡ ҡҡ ҡӏ л м н о п пп пӏ р с т тт тӏ у х ҳ һ ц цц цӏ ч чч чӏ ш ӏ
 ```
 
-**Collation order:** The alphabet sequence above defines the sorting order. Digraphs are treated as single letters sorting after their base consonant, and extended characters follow their base letters — `ә` after `а`, `ғ` after `г`, `ҡ` after `к`, `ҳ` then `һ` after `х`, with `ӏ` sorting last.
+**Collation order**: The alphabet sequence above defines the sorting order. Digraphs are treated as single letters sorting after their base consonant, and extended characters follow their base letters — `ә` after `а`, `ғ` after `г`, `ҡ` after `к`, `ҳ` then `һ` after `х`, with `ӏ` sorting last.
 
-**Letter frequency data:** [letters.csv](corpus/letters.csv)
+**Letter frequency data**: [letters.csv](corpus/letters.csv)
 
-**Comparison with Soviet Dagestani orthographies.** Empty cells indicate identical representation, and an asterisk (\*) marks the conventions from the dissertations on Kaitag by Temirbulatova[^1] and Gasanova[^2]:
+**Comparison with Soviet Dagestani orthographies**: Empty cells indicate identical representation. Leading hyphens (**-ва**) mark sequences bound to a preceding consonant. An asterisk (\*) marks conventions from the dissertations by Temirbulatova[^1] and Gasanova[^2].
 
 | Kaitag | IPA      | Soviet Dagestani                                                     |
 | :----- | :------- | :------------------------------------------------------------------- |
@@ -59,7 +60,7 @@ The modern Kaitag Cyrillic alphabet was developed in 2024 and updated in 2026. I
 | **кк** | /kː/     |                                                                      |
 | **кӏ** | /kʼ/     |                                                                      |
 | **ҡ**  | /q/      | **хъ**, **къ**                                                       |
-| **ҡҡ** | /qː/     | **къ**; **къкъ**\* (intervocally)                                    |
+| **ҡҡ** | /qː/     | **къ**; **къкъ**\* (intervocalically)                                |
 | **ҡӏ** | /qʼ/     | **кь**, **къ**                                                       |
 | **л**  | /l/      |                                                                      |
 | **м**  | /m/      |                                                                      |
@@ -94,9 +95,9 @@ The modern Kaitag Cyrillic alphabet was developed in 2024 and updated in 2026. I
 а ә б в г ғ д е ж з и й к ҡ л м н о п р с т у х ҳ һ ц ч ш ӏ
 ```
 
-**Character frequency data:** [characters.csv](corpus/characters.csv)
+**Character frequency data**: [characters.csv](corpus/characters.csv)
 
-**Extended Cyrillic characters:**
+**Extended Cyrillic characters**:
 
 | Character | Unicode        | Name                              |
 | --------- | -------------- | --------------------------------- |
@@ -107,7 +108,7 @@ The modern Kaitag Cyrillic alphabet was developed in 2024 and updated in 2026. I
 | Һ һ       | U+04BA, U+04BB | Cyrillic Letter Shha              |
 | Ӏ ӏ       | U+04C0, U+04CF | Cyrillic Letter Palochka          |
 
-> **Note on Palochka:** Often substituted with digit `1`, Latin `I`/`i`, lowercase `l`, vertical bar `|`, or slash `/` due to absence from standard Russian keyboards. This practice began with Soviet typewriters and continues today. **Corpora, dictionaries, and datasets should normalize these substitutions to the canonical Unicode characters U+04C0 (capital) and U+04CF (lowercase).**
+> **Note on Palochka**: Often substituted with digit `1`, Latin `I`/`i`, lowercase `l`, vertical bar `|`, or slash `/` due to absence from standard Russian keyboards — a practice dating to Soviet typewriters. Corpora, dictionaries, and datasets should normalize these to the canonical Unicode characters U+04C0 (capital) and U+04CF (lowercase).
 
 ### Extended Notation
 
@@ -119,16 +120,14 @@ Beyond the core alphabet, extended orthographic notation includes:
 - **Dialectal sounds**: **гӏ** /ʡ/, **хӏ** /ħ/, **ю** /uˤ/
 - **Russian letters** (unassimilated loanwords and proper nouns): **ё**, **ф**, **щ**, **ъ**, **ы**, **ь**, **э**, **ю**, **я**
 
-These elements are not part of the standard alphabet but are used for precise phonetic documentation, pedagogical purposes, and dialectal variation.
-
 ## Typing
 
-Input methods are based on the standard Russian ЙЦУКЕН layout to minimize disruption to Russian keyboard users' muscle memory. An optimized Kaitag-specific layout based on character frequency would require a larger text corpus for proper analysis.
+Input methods are based on the standard Russian ЙЦУКЕН layout to minimize disruption to Russian keyboard users' muscle memory. A frequency-optimized layout is deferred until the corpus matures.
 
-**Language identifiers** for keyboard layouts:
+**Language identifiers**:
 
 - **English**: Kaitag
-- **Russian**: кайтагский
+- **Russian**: Кайтагский
 - **Kaitag**: Хайдаҡӏла
 - **ISO 639-3**: `xdq`
 
@@ -138,7 +137,7 @@ Available for **Google Gboard** ([Google Play](https://play.google.com/store/app
 
 #### 3-row
 
-Replaces **щ**, **ф**, **ы**, **э**, **ь**, **ю** with **ӏ**, **ҡ**, **һ**, **ҳ**, **ә**, **ғ**, keeping **я**. More frequent Kaitag letters occupy more accessible keys.
+Replaces six of seven excluded Russian letters: `щ` → `ӏ`, `ф` → `ҡ`, `ы` → `һ`, `э` → `ҳ`, `ь` → `ә`, `ю` → `ғ`. `я` keeps its slot as the most frequent of the excluded set. Placement reflects character frequency (see [characters.csv](corpus/characters.csv)).
 
 ```
 й ц у к е н г ш ӏ з х
@@ -172,7 +171,7 @@ Leaves the Russian ЙЦУКЕН intact and adds new keys above:
   я ч с м и т ь б ю
 ```
 
-> If the keyboard does not place `,` and `.` around the spacebar, replace `'` and `"` in the top row with them.
+_Replace `'` and `"` with `,` and `.` if your keyboard lacks them around the spacebar._
 
 Accented vowels are accessible via long-press:
 
@@ -192,7 +191,7 @@ Accented vowels are accessible via long-press:
 
 ### Desktop
 
-The script requires six additional symbols compared to standard Russian. Compose key sequences can be used to enter these characters without switching keyboard layouts.
+The script requires six additional characters compared to standard Russian, plus a combining acute for stress marking. Compose key sequences enter these without switching layouts.
 
 Example configuration for [**WinCompose**](https://github.com/samhocevar/wincompose) on Windows:
 
@@ -218,42 +217,40 @@ Linux has built-in compose key support. For macOS, [**macos-compose**](https://g
 
 ### Data
 
-- **[Kaitag Dictionary](https://urssivar.com/language/dictionary/)** (5,000+ lexemes, in development) with usage examples, notes, and cross-references ([source](https://github.com/urssivar/dictionary))
-- **Reference corpus**: [monocorpus.txt](corpus/monocorpus.txt) (33,615 characters) extracted from Gasanova[^3]
-- **Unicode exemplar data** (base, auxiliary, marks): [googlefonts/lang: xdq_Cyrl.textproto](https://github.com/googlefonts/lang/blob/main/Lib/gflanguages/data/languages/xdq_Cyrl.textproto)
+- **[Kaitag Dictionary](https://urssivar.com/language/dictionary/)**: 5,000+ lexemes with usage examples, notes, and cross-references ([source](https://github.com/urssivar/dictionary)).
+- **[Reference corpus](corpus/monocorpus.txt)**: 33,615 characters extracted from Gasanova[^3].
+- **[Unicode exemplar data](https://github.com/googlefonts/lang/blob/main/Lib/gflanguages/data/languages/xdq_Cyrl.textproto)**: Base, auxiliary, marks.
 
 ### Tools
 
-- **[Yaziv](https://yaziv.raxys.app/xdq?from=cyr_soviet&to=cyr&text=цакъкъа+г1ябал+къабагъ)** text converter: Supports transliteration between Kaitag Cyrillic and IPA representations
+- **[Yaziv](https://yaziv.raxys.app/xdq?from=cyr_soviet&to=cyr&text=цакъкъа+г1ябал+къабагъ)**: Transliteration between Kaitag Cyrillic and IPA representations.
   - Current orthography: "Cyrillic"
   - Legacy support: "Cyrillic (2024)", "Soviet Cyrillic"
-- **[Google Fonts](https://fonts.google.com/?preview.size=24&lang=xdq_Cyrl)**: Web font service and library
+- **[Google Fonts](https://fonts.google.com/?preview.size=24&lang=xdq_Cyrl)**: Web font service and library.
 
 ### References
 
-- **[ParaType](https://paratype.github.io/cyrillic-languages/index.html?lang=Kaitag&group=cyrillic&ui=en&pg=2)**: Cyrillic typography resource
-- **[Ethnologue](https://www.ethnologue.com/language/xdq/)**: Global language database
-- **[Omniglot](https://www.omniglot.com/writing/kaitag.htm)**: Encyclopedia of writing systems and languages
-- **[Minority Languages of Russia](https://minlang.iling-ran.ru/lang/kaytagskiy-yazyk)**: Institute of Linguistics, Russian Academy of Sciences
+- **[ParaType](https://paratype.github.io/cyrillic-languages/index.html?lang=Kaitag&group=cyrillic&ui=en&pg=2)**: Cyrillic typography resource.
+- **[Ethnologue](https://www.ethnologue.com/language/xdq/)**: Global language database.
+- **[Omniglot](https://www.omniglot.com/writing/kaitag.htm)**: Encyclopedia of writing systems and languages.
+- **[Minority Languages of Russia](https://minlang.iling-ran.ru/lang/kaytagskiy-yazyk)**: Institute of Linguistics, Russian Academy of Sciences.
 
 ## Version History
 
-**v1.2 (May 2026)**: Introduced two extended Cyrillic characters **Әә** and **Һһ** to replace **Яя** and **Ьь**, removing the mental clash with Russian reading. The palochka **Ӏӏ** additionally serves as a standalone letter for glottal stop /ʔ/ (previously **Ъъ**).
+**v1.2 (May 2026)**: Introduced two extended Cyrillic characters **Әә** and **Һһ** to replace **Яя** and **Ьь**, removing the friction of reading these Russian letters with non-Russian sound values. The palochka **Ӏӏ** also serves as a standalone letter for /ʔ/, replacing **Ъъ**.
 
-**v1.1 (January 2026)**: Reintroduced the palochka **Ӏӏ** as ejective marker, aligning with Dagestani orthographic tradition. Added extended notation for stress marking and tense fricatives.
+**v1.1 (January 2026)**: Adopted the palochka **Ӏӏ** as ejective marker, aligning with North Caucasian orthographic tradition. Added extended notation for stress marking and tense fricatives.
 
 **v1.0 (February 2024)**: Initial release introducing extended Cyrillic characters **Ғғ**, **Ҡҡ**, and **Ҳҳ**, uniform consonant series representation, and explicit iotation. Used soft sign **Ьь** as dual marker for both /h/ and ejectivity.
+
+## License
+
+Licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). For questions or contributions, contact <alkaitagi@outlook.com>. If you use this specification or data in your work, please cite:
+
+> Magomedov, M. (2026). _Kaitag Cyrillic Script_. Retrieved from <https://github.com/urssivar/script>
 
 [^1]: Темирбулатова, С.М. (2006). _Хайдакский диалект даргинского языка_. Диссертация на соискание учёной степени доктора филологических наук. Махачкала.
 
 [^2]: Гасанова, У.У. (2012). _Лексика и словообразование хайдакского диалекта даргинского языка_. Диссертация на соискание учёной степени доктора филологических наук. Махачкала.
 
 [^3]: Гасанова, У.У. (2013). _Хайдакьла хабарти_ (Хайдакские сказки). Махачкала, 152 с. Составитель: Гасанова У.У. Редактор: Сивриди Г.Н.
-
-## License
-
-This work is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). If you use this specification or data in your work, please cite:
-
-> Magomedov, M. (2026). _Kaitag Cyrillic Script_. Retrieved from https://github.com/urssivar/script
-
-Contact: alkaitagi@outlook.com
