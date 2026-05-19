@@ -38,7 +38,7 @@ _The Universal Declaration of Human Rights, Article 1:_
 
 **Collation order**: The alphabet sequence above defines the sorting order. Digraphs are treated as single letters sorting after their base consonant, and extended characters follow their base letters — `ә` after `а`, `ғ` after `г`, `ҡ` after `к`, `ҳ` then `һ` after `х`, with `ӏ` sorting last.
 
-**Letter frequency data**: [letters.csv](corpus/letters.csv)
+**Letter frequency data**: [letters.csv](corpus/letters.csv).
 
 **Comparison with Soviet Dagestani orthographies**: Empty cells indicate identical representation. Leading hyphens (**-ва**) mark sequences bound to a preceding consonant. An asterisk (\*) marks conventions from the dissertations by Temirbulatova[^1] and Gasanova[^2].
 
@@ -95,7 +95,7 @@ _The Universal Declaration of Human Rights, Article 1:_
 а ә б в г ғ д е ж з и й к ҡ л м н о п р с т у х ҳ һ ц ч ш ӏ
 ```
 
-**Character frequency data**: [characters.csv](corpus/characters.csv)
+**Character frequency data**: [characters.csv](corpus/characters.csv).
 
 **Extended Cyrillic characters**:
 
@@ -114,11 +114,11 @@ _The Universal Declaration of Human Rights, Article 1:_
 
 Beyond the core alphabet, extended orthographic notation includes:
 
-- **Acute accent** (stress marking): **а́**, **ә́**, **е́**, **и́**, **о́**, **у́**
-- **Tense fricatives** (phonemic status uncertain): **сс** /sː/, **хх** /χː/, **ҳҳ** /xː/, **шш** /ʃː/
-- **Marginal sounds** (onomatopoeia): **ву** /w/, **гҳ** /ɣ/, **пв** /ɸ/
-- **Dialectal sounds**: **гӏ** /ʡ/, **хӏ** /ħ/, **ю** /uˤ/
-- **Russian letters** (unassimilated loanwords and proper nouns): **ё**, **ф**, **щ**, **ъ**, **ы**, **ь**, **э**, **ю**, **я**
+- **Acute accent** (stress marking): **а́**, **ә́**, **е́**, **и́**, **о́**, **у́**.
+- **Tense fricatives** (phonemic status uncertain): **сс** /sː/, **хх** /χː/, **ҳҳ** /xː/, **шш** /ʃː/.
+- **Marginal sounds** (onomatopoeia): **ву** /w/, **гҳ** /ɣ/, **пв** /ɸ/.
+- **Dialectal sounds**: **гӏ** /ʡ/, **хӏ** /ħ/, **ю** /uˤ/.
+- **Russian letters** (unassimilated loanwords and proper nouns): **ё**, **ф**, **щ**, **ъ**, **ы**, **ь**, **э**, **ю**, **я**.
 
 ## Typing
 
@@ -247,7 +247,7 @@ Linux has built-in compose key support. For macOS, [**macos-compose**](https://g
 
 Licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). For questions or contributions, contact <alkaitagi@outlook.com>. If you use this specification or data in your work, please cite:
 
-> Magomedov, M. (2026). _Kaitag Cyrillic Script_. Retrieved from <https://github.com/urssivar/script>
+> Magomedov, M. (2026). _Kaitag Cyrillic Script_. Retrieved from <https://github.com/urssivar/script>.
 
 [^1]: Темирбулатова, С.М. (2006). _Хайдакский диалект даргинского языка_. Диссертация на соискание учёной степени доктора филологических наук. Махачкала.
 
