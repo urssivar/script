@@ -112,7 +112,7 @@ The alphabet draws systematically on established conventions across the Cyrillic
 
 > **Note on Palochka**: Often substituted with digit `1`, Latin `I`/`i`, lowercase `l`, vertical bar `|`, or slash `/` due to absence from standard Russian keyboards — a practice dating to Soviet typewriters. Corpora, dictionaries, and datasets should normalize these to the canonical Unicode characters U+04C0 (capital) and U+04CF (lowercase).
 
-### Extended Notation
+### Supplementary Notation
 
 Beyond the core alphabet, extended orthographic notation includes:
 
@@ -232,7 +232,7 @@ Linux has built-in compose key support. For macOS, [**macos-compose**](https://g
 
 ### References
 
-- **[ParaType](https://paratype.github.io/cyrillic-languages/index.html?lang=Kaitag&group=cyrillic&ui=en&pg=2)**: Cyrillic typography resource.
+- **[Paratype](https://paratype.github.io/cyrillic-languages/index.html?lang=Kaitag&group=cyrillic&ui=en&pg=2)**: Cyrillic typography resource.
 - **[Ethnologue](https://www.ethnologue.com/language/xdq/)**: Global language database.
 - **[Omniglot](https://www.omniglot.com/writing/kaitag.htm)**: Encyclopedia of writing systems and languages.
 - **[Minority Languages of Russia](https://minlang.iling-ran.ru/lang/kaytagskiy-yazyk)**: Institute of Linguistics, Russian Academy of Sciences.
