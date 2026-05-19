@@ -114,7 +114,7 @@ The alphabet draws systematically on established conventions across the Cyrillic
 
 ### Supplementary Notation
 
-Beyond the core alphabet, extended orthographic notation includes:
+Beyond the core alphabet, supplementary orthographic notation includes:
 
 - **Acute accent** (stress marking): **а́**, **ә́**, **е́**, **и́**, **о́**, **у́**.
 - **Tense fricatives** (phonemic status uncertain): **сс** /sː/, **хх** /χː/, **ҳҳ** /xː/, **шш** /ʃː/.
