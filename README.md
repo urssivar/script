@@ -1,11 +1,11 @@
-# Kaitag Script
+# Kaitag Cyrillic Script
 
 > Draft of **v1.2**, pending review (tentative finalization 2027). Stable version: [**v1.1**](https://github.com/urssivar/script/tree/v1.1).
 
 The modern Kaitag Cyrillic alphabet was developed in 2024 and updated in 2026. It uses 24 letters from the Russian alphabet, 6 extended Cyrillic letters (**Әә**, **Ғғ**, **Ҡҡ**, **Ҳҳ**, **Һһ**, **Ӏӏ**), and 12 digraphs for geminates and ejectives.
 
 <!--
-Alternative longer summary for external references where the full Script Design section isn't available:
+Alternative longer summary for external references where the full design content isn't available:
 
 The modern Kaitag Cyrillic alphabet was developed in 2024 and updated in 2026. It consists of 24 letters from the Russian alphabet (excluding **Ёё**, **Фф**, **Щщ**, **Ъъ**, **Ыы**, **Ьь**, **Ээ**, **Юю**, **Яя**), 6 extended Cyrillic letters (**Әә**, **Ғғ**, **Ҡҡ**, **Ҳҳ**, **Һһ**, **Ӏӏ**), and 12 digraphs (doubled geminates and ejectives with the palochka). Extended notation covers stress marking, marginal and dialectal sounds, and loanword letters.
 -->
@@ -16,7 +16,9 @@ _The Universal Declaration of Human Rights, Article 1:_
 | :---------------------------------------------------------------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Һар мейдам азатдеҳ челле чи һачӏурил це: цада йәрдицци, цада ихтийарцци. Һелттай әҡӏлу ра йәһ ра деччил дилле, цалццил ца уццбе гон бугара биккан це. | haɾ ˈmejdam azatˈdex ˈtʃelle tʃihatʃʼuˈɾil tse: tsaˈda jæɾˈditsːi, tsaˈda iχtiˈjaɾtsːi. helˈtːaj ˈæqʼlu ɾa jæh ɾa ˈdetʃːil ˈdille, ˈtsaltsːil tsa utsːˈbe gʷan buˈgaɾa biˈkːan tse. | All human beings are born free and equal in dignity and rights. They are endowed with reason and conscience and should act towards one another in a spirit of brotherhood. |
 
-## Script Design
+## Design
+
+The alphabet draws systematically on established conventions across the Cyrillic ecosystem — Turkic and North Caucasian — selecting individual solutions on their merits rather than aligning with any single regional tradition. Five design decisions follow:
 
 1. **Extended Cyrillic**: Each basic phoneme has a dedicated single-letter representation — **ә** /æ/, **ғ** /ʁ/, **ҡ** /q/, **ҳ** /x/, **һ** /h/, **ӏ** /ʔ/.
 
@@ -247,7 +249,7 @@ Linux has built-in compose key support. For macOS, [**macos-compose**](https://g
 
 Licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). For questions or contributions, contact <alkaitagi@outlook.com>. If you use this specification or data in your work, please cite:
 
-> Magomedov, M. (2026). _Kaitag Cyrillic Script_. Retrieved from <https://github.com/urssivar/script>.
+> Magomedov, M. (2026). *Kaitag Cyrillic Script*. Retrieved from <https://github.com/urssivar/script>.
 
 [^1]: Темирбулатова, С.М. (2006). _Хайдакский диалект даргинского языка_. Диссертация на соискание учёной степени доктора филологических наук. Махачкала.
 
