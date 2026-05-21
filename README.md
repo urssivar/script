@@ -2,12 +2,12 @@
 
 > Draft of **v1.2**, pending review (tentative finalization 2027). Stable version: [**v1.1**](https://github.com/urssivar/script/tree/v1.1).
 
-The modern Kaitag Cyrillic alphabet was developed in 2024 and updated in 2026. It uses 24 letters from the Russian alphabet, 6 extended Cyrillic letters (**Әә**, **Ғғ**, **Ҡҡ**, **Ҳҳ**, **Һһ**, **Ӏӏ**), and 12 digraphs for geminates and ejectives.
+The modern Kaitag Cyrillic alphabet was developed in 2024–2026. It uses 24 letters from the Russian alphabet, 6 extended Cyrillic letters (**Әә**, **Ғғ**, **Ҡҡ**, **Ҳҳ**, **Һһ**, **Ӏӏ**), and 12 digraphs for geminates and ejectives.
 
 <!--
 Alternative longer summary for external references where the full design content isn't available:
 
-The modern Kaitag Cyrillic alphabet was developed in 2024 and updated in 2026. It consists of 24 letters from the Russian alphabet (excluding **Ёё**, **Фф**, **Щщ**, **Ъъ**, **Ыы**, **Ьь**, **Ээ**, **Юю**, **Яя**), 6 extended Cyrillic letters (**Әә**, **Ғғ**, **Ҡҡ**, **Ҳҳ**, **Һһ**, **Ӏӏ**), and 12 digraphs (doubled geminates and ejectives with the palochka). Supplementary notation covers stress marking, marginal and dialectal sounds, and loanword letters.
+The modern Kaitag Cyrillic alphabet was developed in 2024–2026. It consists of 24 letters from the Russian alphabet (excluding **Ёё**, **Фф**, **Щщ**, **Ъъ**, **Ыы**, **Ьь**, **Ээ**, **Юю**, **Яя**), 6 extended Cyrillic letters (**Әә**, **Ғғ**, **Ҡҡ**, **Ҳҳ**, **Һһ**, **Ӏӏ**), and 12 digraphs (doubled geminates and ejectives with the palochka). Supplementary notation covers stress marking, marginal and dialectal sounds, and loanword letters.
 -->
 
 _The Universal Declaration of Human Rights, Article 1:_
