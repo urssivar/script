@@ -139,12 +139,12 @@ Available for **Google Gboard** ([Google Play](https://play.google.com/store/app
 
 #### 3-row
 
-Replaces six of seven excluded Russian letters: `щ` → `ӏ`, `ф` → `ҡ`, `ы` → `һ`, `э` → `ҳ`, `ь` → `ә`, `ю` → `ғ`. `я` keeps its slot as the most frequent of the excluded set. Placement reflects character frequency (see [characters.csv](corpus/characters.csv)).
+Replaces six of seven excluded Russian letters: `щ` → `ӏ`, `ф` → `ҳ`, `ы` → `ҡ`, `э` → `ғ`, `я` → `ә`, `ь` → `һ`, and drops `ю`. Placement reflects character frequency (see [characters.csv](corpus/characters.csv)).
 
 ```text
 й ц у к е н г ш ӏ з х
-ҡ һ в а п р о л д ж ҳ
-  я ч с м и т ә б ғ
+ҳ ҡ в а п р о л д ж ғ
+   ә ч с м и т һ б
 ```
 
 Accented vowels for stress marking and excluded Russian letters are accessible via long-press:
@@ -154,12 +154,12 @@ Accented vowels for stress marking and excluded Russian letters are accessible v
 е: э е́ ё
 ш: щ
 ӏ: ъ
-һ: ь
-а: а́
+а: я а́
 п: ф
 о: о́
-и: ы и́
 ә: ә́
+и: ы и́
+һ: ь
 ```
 
 #### 4-row
@@ -249,7 +249,7 @@ Linux has built-in compose key support. For macOS, [**macos-compose**](https://g
 
 Licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). For questions or contributions, contact <alkaitagi@outlook.com>. If you use this specification or data in your work, please cite:
 
-> Magomedov, M. (2026). *Kaitag Cyrillic Script*. Retrieved from <https://github.com/urssivar/script>.
+> Magomedov, M. (2026). _Kaitag Cyrillic Script_. Retrieved from <https://github.com/urssivar/script>.
 
 [^1]: Темирбулатова, С.М. (2006). _Хайдакский диалект даргинского языка_. Диссертация на соискание учёной степени доктора филологических наук. Махачкала.
 
