@@ -1,7 +1,5 @@
 # Kaitag Cyrillic Script
 
-> Draft of **v1.2**, pending review (tentative finalization 2027). Stable version: [**v1.1**](https://github.com/urssivar/script/tree/v1.1).
-
 The modern Kaitag Cyrillic alphabet was developed in 2024–2026. It uses 24 letters from the Russian alphabet, 6 extended Cyrillic letters (**Әә**, **Ғғ**, **Ҡҡ**, **Ҳҳ**, **Һһ**, **Ӏӏ**), and 12 digraphs for geminates and ejectives.
 
 <!--
