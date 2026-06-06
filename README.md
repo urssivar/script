@@ -165,7 +165,7 @@ Accented vowels for stress marking and excluded Russian letters are accessible v
 Leaves the Russian ЙЦУКЕН intact and adds new keys above:
 
 ```text
-' ! ? ғ ҡ һ ӏ ә ҳ — "
+' ! ? ҳ ҡ ә һ ӏ ғ — "
 й ц у к е н г ш щ з х
 ф ы в а п р о л д ж э
   я ч с м и т ь б ю
