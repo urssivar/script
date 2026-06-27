@@ -171,8 +171,6 @@ Leaves the Russian ЙЦУКЕН intact and adds new keys above:
   я ч с м и т ь б ю
 ```
 
-_Replace `'` and `"` with `,` and `.` if your keyboard lacks them around the spacebar._
-
 Accented vowels are accessible via long-press:
 
 ```text
